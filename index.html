@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulado Interativo PM-AL (CEBRASPE)</title>
+  <style>
+    :root {
+      --primary: #002b49;
+      --secondary: #005691;
+      --accent: #d9534f;
+      --bg: #f4f6f8;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --correct: #28a745;
+      --incorrect: #dc3545;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-weight: bold;
+      color: var(--secondary);
+      margin-bottom: 25px;
+    }
+
+    .text-box {
+      background-color: #eef2f5;
+      border-left: 4px solid var(--secondary);
+      padding: 15px;
+      margin: 20px 0;
+      font-style: italic;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .section-header {
+      background-color: var(--primary);
+      color: white;
+      padding: 8px 15px;
+      margin-top: 30px;
+      border-radius: 4px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .question {
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .question p {
+      margin-top: 0;
+      font-weight: 500;
+    }
+
+    .options {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .options label {
+      cursor: pointer;
+      padding: 6px 15px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      background-color: #fff;
+      transition: background 0.2s, color 0.2s;
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    .options input[type="radio"] {
+      display: none;
+    }
+
+    .options label.selected-certo {
+      background-color: var(--secondary);
+      color: white;
+      border-color: var(--secondary);
+    }
+
+    .options label.selected-errado {
+      background-color: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .options label.selected-branco {
+      background-color: #6c757d;
+      color: white;
+      border-color: #6c757d;
+    }
+
+    .controls {
+      position: sticky;
+      bottom: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .controls-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    button {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: var(--secondary);
+    }
+
+    #result {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .feedback {
+      margin-top: 8px;
+      font-weight: bold;
+      display: none;
+    }
+
+    .correct-ans { color: var(--correct); }
+    .incorrect-ans { color: var(--incorrect); }
+
+    .summary-title {
+      font-weight: bold;
+      margin-top: 10px;
+      color: var(--primary);
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+
+    .answers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+      gap: 8px;
+      max-height: 250px;
+      overflow-y: auto;
+      padding: 10px;
+      background: #f8f9fa;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+    }
+
+    .ans-tag {
+      padding: 4px 8px;
+      font-size: 0.85em;
+      font-weight: bold;
+      border-radius: 4px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    .ans-tag.certo { background-color: #e3f2fd; color: #0d47a1; border-color: #90caf9; }
+    .ans-tag.errado { background-color: #ffebee; color: #b71c1c; border-color: #ef9a9a; }
+    .ans-tag.branco { background-color: #eceff1; color: #37474f; border-color: #b0bec5; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>SIMULADO DE ELITE PM AL</h1>
+  <div class="subtitle">120 ITENS - PADRÃO CEBRASPE (CERTO / ERRADO)</div>
+
+  <form id="quizForm">
+
+    <!-- LÍNGUA PORTUGUESA -->
+    <div class="section-header">LÍNGUA PORTUGUESA (1 a 20)</div>
+
+    <div class="text-box">
+      <strong>Texto 1 (Adaptado do "Manual de Redação da Presidência da República")</strong><br>
+      A clareza deve ser a qualidade básica de todo texto oficial. Pode-se definir como claro aquele texto que possibilita a imediata compreensão pelo leitor. No entanto, a clareza não é algo que se alcance por si só: ela depende estritamente de outras características da redação formal, tais como a concisão e a precisão gramatical. Para atingi-la, deve-se evitar o uso de linguagem rebuscada, jargões desnecessários e estruturas frasais excessivamente longas. A revisão atenta do texto constitui, pois, elemento indispensável para a eliminação de ambiguidades e para a consolidação da eficácia comunicativa no âmbito da administração pública.
+    </div>
+
+    <div class="question" id="q1">
+      <p>1. No trecho "Pode-se definir como claro aquele texto", o pronome "se" atua como partícula apassivadora, sendo a oração "aquele texto que possibilita a imediata compreensão pelo leitor" o sujeito paciente da forma verbal.</p>
+      <div class="options">
+        <label><input type="radio" name="q1" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q1" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q1" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q2">
+      <p>2. A substituição da conjunção "No entanto" por "Porquanto" manteria inalterados a correção gramatical e o sentido original do período.</p>
+      <div class="options">
+        <label><input type="radio" name="q2" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q2" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q2" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q3">
+      <p>3. No segmento "ela depende estritamente de outras características", o vocábulo "estritamente" atua como advérbio de modo, modificando o sentido do verbo "depender".</p>
+      <div class="options">
+        <label><input type="radio" name="q3" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q3" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q3" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q4">
+      <p>4. O emprego do sinal indicativo de crase em "Para atingi-la" seria obrigatório caso o pronome "la" fosse substituído pelo substantivo feminino "clareza" imediatamente regido pelo verbo.</p>
+      <div class="options">
+        <label><input type="radio" name="q4" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q4" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q4" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q5">
+      <p>5. Na linha do texto, o conector "pois" (em "constitui, pois, elemento indispensável") possui valor semântico explicativo.</p>
+      <div class="options">
+        <label><input type="radio" name="q5" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q5" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q5" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q6">
+      <p>6. A palavra "eficácia" acentua-se graficamente pela mesma regra que justifica o acento no vocábulo "pública".</p>
+      <div class="options">
+        <label><input type="radio" name="q6" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q6" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q6" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q7">
+      <p>7. A oração "que possibilita a imediata compreensão pelo leitor" classifica-se como subordinada adjetiva restritiva.</p>
+      <div class="options">
+        <label><input type="radio" name="q7" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q7" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q7" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q8">
+      <p>8. Sem prejuízo para a correção gramatical do texto, a expressão "tais como" poderia ser substituída por "a exemplo de".</p>
+      <div class="options">
+        <label><input type="radio" name="q8" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q8" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q8" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q9">
+      <p>9. Infere-se do texto que a concisão e a precisão gramatical são condições autônomas que prescindem da clareza textual.</p>
+      <div class="options">
+        <label><input type="radio" name="q9" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q9" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q9" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q10">
+      <p>10. A substituição de "deve-se evitar" por "devem-se evitar" prejudicaria a gramática do texto, visto que o verbo "evitar" possui complemento no singular.</p>
+      <div class="options">
+        <label><input type="radio" name="q10" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q10" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q10" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="text-box">
+      <strong>Texto 2 (Adaptado de "Vidas Secas", de Graciliano Ramos)</strong><br>
+      Fabiano ia para a cidade. A viagem era longa e difícil, mas a necessidade de buscar recursos para a família impunha o deslocamento. Olhava a caatinga amarelada, os galhos secos que se retorciam sob o sol causticante, e sentia um aperto no peito. Não sabia falar direito, faltava-lhe a palavra fluida dos homens da rua, contudo compreendia a crueza da terra e a dureza da vida. Seus passos lentos levantavam uma poeira fina que se dispersava no ar quente do meio-dia, enquanto os cachorros seguiam à frente, farejando o nada na imensidão do sertão.
+    </div>
+
+    <div class="question" id="q11">
+      <p>11. O texto do romance Vidas Secas caracteriza-se predominantemente como dissertativo-argumentativo, uma vez que defende teses explícitas sobre a seca no Nordeste.</p>
+      <div class="options">
+        <label><input type="radio" name="q11" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q11" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q11" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q12">
+      <p>12. Em "faltava-lhe a palavra fluida", o pronome "lhe" exerce a função sintática de adjunto adnominal, indicando posse em relação ao substantivo "palavra".</p>
+      <div class="options">
+        <label><input type="radio" name="q12" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q12" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q12" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q13">
+      <p>13. No segmento "contudo compreendia a crueza da terra", a conjunção "contudo" introduz ideia de oposição, podendo ser substituída por "todavia" sem alteração de sentido.</p>
+      <div class="options">
+        <label><input type="radio" name="q13" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q13" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q13" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q14">
+      <p>14. Na oração "que se retorciam sob o sol causticante", a preposição "sob" indica uma relação de posição inferior ou submissão física ao calor do sol.</p>
+      <div class="options">
+        <label><input type="radio" name="q14" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q14" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q14" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q15">
+      <p>15. O termo "fluida" é acentuado graficamente por conter um hiato tônico na segunda vogal "i".</p>
+      <div class="options">
+        <label><input type="radio" name="q15" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q15" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q15" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q16">
+      <p>16. Em "seguiam à frente", o uso do acento grave indicativo de crase justifica-se por integrar uma locução adverbial de base feminina.</p>
+      <div class="options">
+        <label><input type="radio" name="q16" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q16" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q16" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q17">
+      <p>17. A substituição da forma verbal "ia" por "fôra" manteria a mesma equivalência temporal e estilística da narrativa original.</p>
+      <div class="options">
+        <label><input type="radio" name="q17" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q17" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q17" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q18">
+      <p>18. O pronome "que" em "que se dispersava no ar quente" retoma anaforicamente o termo "poeira fina".</p>
+      <div class="options">
+        <label><input type="radio" name="q18" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q18" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q18" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q19">
+      <p>19. A expressão "sol causticante" é empregada em sentido figurado para designar a frieza do clima sertanejo.</p>
+      <div class="options">
+        <label><input type="radio" name="q19" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q19" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q19" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q20">
+      <p>20. A oração "enquanto os cachorros seguiam à frente" estabelece uma relação de proporcionalidade em relação à oração anterior.</p>
+      <div class="options">
+        <label><input type="radio" name="q20" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q20" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q20" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- MATEMÁTICA -->
+    <div class="section-header">MATEMÁTICA (21 a 30)</div>
+
+    <div class="question" id="q21">
+      <p>21. Em uma operação policial, 2/5 do efetivo foram para patrulhamento e 1/3 do restante para o administrativo. A fração do efetivo não alocada é igual a 2/5.</p>
+      <div class="options">
+        <label><input type="radio" name="q21" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q21" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q21" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q22">
+      <p>22. Três batalhões da Polícia Militar dividiram uma verba suplementar de R$ 90.000,00 em partes inversamente proporcionais ao número de sanções disciplinares registradas no ano: 2, 3 e 6. O batalhão com menor número de sanções recebeu R$ 45.000,00.</p>
+      <div class="options">
+        <label><input type="radio" name="q22" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q22" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q22" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q23">
+      <p>23. Uma equipe de 6 peritos criminais realiza a análise de 120 laudos em 4 dias, trabalhando 6 horas por dia. Se a equipe for ampliada para 8 peritos, trabalhando 9 horas por dia, a quantidade de laudos analisados no mesmo período de 4 dias será superior a 200.</p>
+      <div class="options">
+        <label><input type="radio" name="q23" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q23" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q23" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q24">
+      <p>24. O valor de uma viatura sofreu uma depreciação de 10% no primeiro ano e de 20% no segundo ano. A depreciação acumulada ao final dos dois anos foi de 30%.</p>
+      <div class="options">
+        <label><input type="radio" name="q24" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q24" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q24" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q25">
+      <p>25. Um investimento financeiro de R$ 15.000,00 aplicado sob o regime de juros simples à taxa de 2% ao mês gerará um montante de R$ 18.600,00 ao final de 12 meses.</p>
+      <div class="options">
+        <label><input type="radio" name="q25" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q25" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q25" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q26">
+      <p>26. Um capital de R$ 20.000,00 aplicado a juros compostos à taxa de 10% ao ano produzirá, após 2 anos, um montante superior a R$ 24.000,00.</p>
+      <div class="options">
+        <label><input type="radio" name="q26" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q26" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q26" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q27">
+      <p>27. A taxa nominal de 12% ao ano capitalizada mensalmente resulta em uma taxa efetiva anual menor do que a taxa nominal informada.</p>
+      <div class="options">
+        <label><input type="radio" name="q27" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q27" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q27" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q28">
+      <p>28. Se uma aplicação rendeu 12% em termos nominais no período de um ano e a inflação registrada no mesmo período foi de 4%, a taxa de juros real auferida pelo investidor foi superior a 7,5%.</p>
+      <div class="options">
+        <label><input type="radio" name="q28" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q28" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q28" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q29">
+      <p>29. Em uma divisão proporcional simples, a fração equivalente a 3/8 é estritamente maior que o percentual de 38%.</p>
+      <div class="options">
+        <label><input type="radio" name="q29" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q29" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q29" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q30">
+      <p>30. Um pelotão é composto por 40 praças. Sabendo que 25 praças possuem curso de tiro tático, 20 possuem curso de atendimento pré-hospitalar e 5 não possuem nenhum dos dois cursos, a probabilidade de escolher ao acaso um praça que possua ambos os cursos é de 25%.</p>
+      <div class="options">
+        <label><input type="radio" name="q30" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q30" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q30" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- INFORMÁTICA -->
+    <div class="section-header">NOÇÕES DE INFORMÁTICA (31 a 40)</div>
+
+    <div class="question" id="q31">
+      <p>31. No Windows 11, o atalho de teclado "Ctrl + Shift + Esc" abre diretamente o Gerenciador de Tarefas, sem passar pela tela de opções do sistema.</p>
+      <div class="options">
+        <label><input type="radio" name="q31" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q31" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q31" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q32">
+      <p>32. No Microsoft Word 365, o recurso "Mala Direta" possibilita a criação automatizada de cartas e e-mails personalizados com base em uma lista de contatos externa.</p>
+      <div class="options">
+        <label><input type="radio" name="q32" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q32" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q32" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q33">
+      <p>33. No Microsoft Excel, a função =CONT.SE(A1:A10; ">10") conta a quantidade de células no intervalo de A1 a A10 cujo valor seja estritamente maior que 10.</p>
+      <div class="options">
+        <label><input type="radio" name="q33" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q33" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q33" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q34">
+      <p>34. No Microsoft PowerPoint, a extensão .potx identifica um arquivo salvo como modelo de apresentação, enquanto .pptx representa a apresentação de slides padrão.</p>
+      <div class="options">
+        <label><input type="radio" name="q34" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q34" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q34" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q35">
+      <p>35. A Intranet é uma rede privada que utiliza a mesma tecnologia e conjunto de protocolos (TCP/IP) da Internet, sendo acessível apenas por usuários autorizados.</p>
+      <div class="options">
+        <label><input type="radio" name="q35" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q35" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q35" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q36">
+      <p>36. O protocolo IMAP permite que o usuário acesse e gerencie suas mensagens de correio eletrônico diretamente no servidor, mantendo as alterações sincronizadas entre múltiplos dispositivos.</p>
+      <div class="options">
+        <label><input type="radio" name="q36" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q36" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q36" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q37">
+      <p>37. As ferramentas de navegação modernas, como Google Chrome e Microsoft Edge, impedem a execução de scripts maliciosos ao desativarem por padrão o suporte a conexões HTTPS.</p>
+      <div class="options">
+        <label><input type="radio" name="q37" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q37" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q37" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q38">
+      <p>38. Na computação em nuvem, o modelo SaaS (Software como Serviço) disponibiliza o software pronto ao cliente via web, dispensando a instalação e manutenção local da aplicação.</p>
+      <div class="options">
+        <label><input type="radio" name="q38" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q38" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q38" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q39">
+      <p>39. O procedimento de backup do tipo "Diferencial" copia apenas os arquivos criados ou alterados desde o último backup completo, e não limpa o atributo de arquivo alterado.</p>
+      <div class="options">
+        <label><input type="radio" name="q39" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q39" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q39" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q40">
+      <p>40. Um Ransomware é uma espécie de programa malicioso que sequestra os dados do dispositivo infectado por meio de criptografia e exige pagamento para o fornecimento da chave de decodificação.</p>
+      <div class="options">
+        <label><input type="radio" name="q40" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q40" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q40" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- CONHECIMENTOS DE ALAGOAS -->
+    <div class="section-header">CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)</div>
+
+    <div class="question" id="q41">
+      <p>41. A emancipação política de Alagoas ocorreu no ano de 1817, desmembrando-se da Capitania de Pernambuco por ato do Rei D. João VI, como resposta punitiva à Revolução Pernambucana.</p>
+      <div class="options">
+        <label><input type="radio" name="q41" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q41" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q41" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q42">
+      <p>42. A colonização inicial do território alagoano esteve intimamente ligada à expansão do cultivo da cana-de-açúcar e ao estabelecimento das primeiras vilas, como Penedo e Porto Calvo.</p>
+      <div class="options">
+        <label><input type="radio" name="q42" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q42" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q42" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q43">
+      <p>43. A elevação de Alagoas à categoria de Província autônoma ocorreu formalmente em 1821, consolidando sua estrutura administrativa no contexto da independência do Brasil.</p>
+      <div class="options">
+        <label><input type="radio" name="q43" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q43" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q43" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q44">
+      <p>44. O Quilombo dos Palmares, situado na Serra da Barriga, organizou-se como um complexo de mocambos que reuniu africanos escravizados, indígenas e sertanejos despossuídos.</p>
+      <div class="options">
+        <label><input type="radio" name="q44" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q44" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q44" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q45">
+      <p>45. A destruição final do Quilombo dos Palmares ocorreu no final do século XVII pela ação das forças militares comandadas pelo bandeirante paulista Domingos Jorge Velho.</p>
+      <div class="options">
+        <label><input type="radio" name="q45" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q45" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q45" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q46">
+      <p>46. A mudança da capital da Província de Alagoas de Marechal Deodoro (antiga Vila das Alagoas) para Maceió ocorreu em 1839, motivada pela posição estratégica do Porto de Jaraguá.</p>
+      <div class="options">
+        <label><input type="radio" name="q46" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q46" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q46" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q47">
+      <p>47. O Rio São Francisco é um rio perene que delimita a divisa natural entre o estado de Alagoas e o estado de Sergipe.</p>
+      <div class="options">
+        <label><input type="radio" name="q47" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q47" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q47" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q48">
+      <p>48. O Agreste alagoano caracteriza-se como uma zona geográfica de transição entre o clima úmido da Zona da Mata e o ambiente semiárido do Sertão.</p>
+      <div class="options">
+        <label><input type="radio" name="q48" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q48" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q48" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q49">
+      <p>49. O estado de Alagoas conta atualmente com 102 municípios, sendo o Governador do Estado o chefe do Poder Executivo estadual.</p>
+      <div class="options">
+        <label><input type="radio" name="q49" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q49" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q49" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q50">
+      <p>50. O "Guerreiro" é um folguedo natalino genuinamente alagoano, resultante da fusão de elementos do Reisado, do Pastoril e do Chegança.</p>
+      <div class="options">
+        <label><input type="radio" name="q50" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q50" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q50" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- LEGISLAÇÃO APLICADA À PM AL -->
+    <div class="section-header">LEGISLAÇÃO APLICADA À PM AL (51 a 56)</div>
+
+    <div class="question" id="q51">
+      <p>51. À luz da Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares de AL), a agregação é a situação na qual o policial militar da ativa deixa de ocupar vaga na escala hierárquica de seu Quadro, nela permanecendo sem número.</p>
+      <div class="options">
+        <label><input type="radio" name="q51" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q51" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q51" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q52">
+      <p>52. Conforme o Estatuto da PMAL, a praça com estabilidade assegurada que for julgada incapacitada definitivamente para o serviço ativo em razão de ferimento recebido em serviço será reformada com proventos integrais da graduação.</p>
+      <div class="options">
+        <label><input type="radio" name="q52" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q52" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q52" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q53">
+      <p>53. Segundo o Decreto Estadual nº 37.042/1996 (Regulamento Disciplinar da PMAL), as punições disciplinares de detenção e prisão não podem ultrapassar o limite máximo contínuo de 30 dias.</p>
+      <div class="options">
+        <label><input type="radio" name="q53" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q53" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q53" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q54">
+      <p>54. De acordo com o Regulamento Disciplinar da PMAL, a transgressão disciplinar classifica-se em leve, média e grave, conforme a natureza e as circunstâncias do fato.</p>
+      <div class="options">
+        <label><input type="radio" name="q54" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q54" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q54" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q55">
+      <p>55. Nos termos da Lei Federal nº 14.751/2023 (Lei Orgânica Nacional das Polícias Militares), o ingresso no Quadro de Praças das corporações estaduais passará a exigir a comprovação de nível superior de escolaridade.</p>
+      <div class="options">
+        <label><input type="radio" name="q55" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q55" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q55" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q56">
+      <p>56. Conforme a Lei Federal nº 14.751/2023, é garantido ao militar estadual o direito ao uso dos títulos, distintivos e uniformes corporativos mesmo após o licenciamento a bem da disciplina.</p>
+      <div class="options">
+        <label><input type="radio" name="q56" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q56" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q56" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO PENAL GERAL -->
+    <div class="section-header">DIREITO PENAL - PARTE GERAL (57 a 64)</div>
+
+    <div class="question" id="q57">
+      <p>57. A lei penal posterior que, de qualquer modo, favorecer o agente retroagirá para alcançar os fatos anteriores, ainda que já tenha ocorrido o trânsito em julgado da sentença condenatória.</p>
+      <div class="options">
+        <label><input type="radio" name="q57" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q57" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q57" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q58">
+      <p>58. O Código Penal brasileiro adotou expressamente a teoria do resultado no tocante ao tempo do crime.</p>
+      <div class="options">
+        <label><input type="radio" name="q58" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q58" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q58" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q59">
+      <p>59. Aplica-se a lei penal brasileira aos crimes cometidos a bordo de aeronaves privadas estrangeiras que se encontrem em pouso no território nacional.</p>
+      <div class="options">
+        <label><input type="radio" name="q59" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q59" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q59" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q60">
+      <p>60. A lei excepcional ou temporária possui propriedade ultrativa, aplicando-se ao fato praticado durante a sua vigência, ainda que decorrido o período de sua duração ou cessada a circunstância que a determinou.</p>
+      <div class="options">
+        <label><input type="radio" name="q60" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q60" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q60" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q61">
+      <p>61. Responde pelo crime tentado o agente que, voluntariamente, desiste de prosseguir na execução do delito ou impede que o resultado se produza.</p>
+      <div class="options">
+        <label><input type="radio" name="q61" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q61" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q61" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q62">
+      <p>62. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.</p>
+      <div class="options">
+        <label><input type="radio" name="q62" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q62" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q62" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q63">
+      <p>63. A legítima defesa putativa, quando decorrente de erro plenamente justificável pelas circunstâncias, isenta o agente de pena.</p>
+      <div class="options">
+        <label><input type="radio" name="q63" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q63" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q63" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q64">
+      <p>64. A embriaguez voluntária ou culposa pelo uso de álcool exclui a imputabilidade penal do agente.</p>
+      <div class="options">
+        <label><input type="radio" name="q64" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q64" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q64" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- LEGISLAÇÃO EXTRAVAGANTE -->
+    <div class="section-header">LEGISLAÇÃO PENAL EXTRAVAGANTE (65 a 71)</div>
+
+    <div class="question" id="q65">
+      <p>65. A condenação por crime previsto na Lei nº 7.716/1989 (preconceito de raça ou de cor) praticado por servidor público acarreta a perda do cargo ou função pública de forma automática.</p>
+      <div class="options">
+        <label><input type="radio" name="q65" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q65" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q65" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q66">
+      <p>66. Os crimes definidos na Lei nº 8.072/1990 (Crimes Hediondos) são insuscetíveis de anistia, graça, indulto e fiança.</p>
+      <div class="options">
+        <label><input type="radio" name="q66" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q66" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q66" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q67">
+      <p>67. Considera-se organização criminosa a associação de 3 ou mais pessoas estruturalmente ordenada para a prática de infrações cujas penas máximas sejam superiores a 4 anos.</p>
+      <div class="options">
+        <label><input type="radio" name="q67" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q67" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q67" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q68">
+      <p>68. O crime de tortura é inafiançável e suscetível de graça e anistia quando praticado por agente público no exercício de suas funções.</p>
+      <div class="options">
+        <label><input type="radio" name="q68" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q68" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q68" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q69">
+      <p>69. O crime de porte ilegal de arma de fogo de uso permitido é afiançável pela autoridade policial nos termos da legislação processual vigente.</p>
+      <div class="options">
+        <label><input type="radio" name="q69" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q69" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q69" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q70">
+      <p>70. Para determinar se a droga apreendida destinava-se a consumo pessoal, o juiz atenderá exclusivamente à quantidade da substância apreendida.</p>
+      <div class="options">
+        <label><input type="radio" name="q70" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q70" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q70" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q71">
+      <p>71. É vedada a aplicação de penas de prestação pecuniária e substituição por penas restritivas de direitos que se reduzam ao pagamento isolado de multas no âmbito do processo da Lei Maria da Penha (Lei nº 11.340/2006).</p>
+      <div class="options">
+        <label><input type="radio" name="q71" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q71" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q71" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO ADMINISTRATIVO -->
+    <div class="section-header">DIREITO ADMINISTRATIVO (72 a 79)</div>
+
+    <div class="question" id="q72">
+      <p>72. O princípio da supremacia do interesse público sobre o privado fundamenta as prerrogativas especiais concedidas à Administração Pública na relação com os administrados.</p>
+      <div class="options">
+        <label><input type="radio" name="q72" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q72" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q72" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q73">
+      <p>73. A imperatividade é o atributo do ato administrativo segundo o qual os atos presumem-se verdadeiros e em conformidade com a lei até prova em contrário.</p>
+      <div class="options">
+        <label><input type="radio" name="q73" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q73" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q73" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q74">
+      <p>74. A anulação do ato administrativo opera efeitos ex tunc, desfazendo as relações jurídicas desde a sua origem.</p>
+      <div class="options">
+        <label><input type="radio" name="q74" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q74" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q74" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q75">
+      <p>75. As autarquias integram a Administração Pública Indireta, possuem personalidade jurídica de direito público e são criadas diretamente por lei específica.</p>
+      <div class="options">
+        <label><input type="radio" name="q75" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q75" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q75" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q76">
+      <p>76. No âmbito da Lei nº 14.133/2021, o Pregão é a modalidade licitatória obrigatória para aquisição de bens e serviços comuns, cujo critério de julgamento pode ser o menor preço ou o maior desconto.</p>
+      <div class="options">
+        <label><input type="radio" name="q76" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q76" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q76" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q77">
+      <p>77. Os bens públicos dominicais estão afetados a uma finalidade pública específica ou ao uso direto da população.</p>
+      <div class="options">
+        <label><input type="radio" name="q77" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q77" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q77" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q78">
+      <p>78. A responsabilidade civil objetiva do Estado baseia-se na teoria do risco administrativo, dispensando a prova de culpa do agente público, mas admitindo excludentes de nexo causal.</p>
+      <div class="options">
+        <label><input type="radio" name="q78" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q78" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q78" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q79">
+      <p>79. O Poder Judiciário pode anular e revogar atos do Poder Executivo em razão de juízo de conveniência e oportunidade.</p>
+      <div class="options">
+        <label><input type="radio" name="q79" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q79" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q79" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO CONSTITUCIONAL -->
+    <div class="section-header">DIREITO CONSTITUCIONAL (80 a 87)</div>
+
+    <div class="question" id="q80">
+      <p>80. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.</p>
+      <div class="options">
+        <label><input type="radio" name="q80" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q80" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q80" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q81">
+      <p>81. É livre a manifestação do pensamento, sendo vedado o anonimato na ordem constitutional brasileira.</p>
+      <div class="options">
+        <label><input type="radio" name="q81" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q81" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q81" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q82">
+      <p>82. A organização político-administrativa do Estado brasileiro compreende a União, os Estados, o Distrito Federal e os Municípios, todos soberanos no âmbito de suas competências.</p>
+      <div class="options">
+        <label><input type="radio" name="q82" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q82" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q82" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q83">
+      <p>83. A decretação do Estado de Defesa exige prévia e expressa autorização do Congresso Nacional para surtir efeitos legais.</p>
+      <div class="options">
+        <label><input type="radio" name="q83" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q83" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q83" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q84">
+      <p>84. As Polícias Militares e os Corpos de Bombeiros Militares, forças auxiliares e reserva do Exército, subordinam-se aos Governadores dos Estados e do Distrito Federal.</p>
+      <div class="options">
+        <label><input type="radio" name="q84" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q84" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q84" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q85">
+      <p>85. A criação de associações e a de cooperativas independem de autorização do Poder Público, sendo vedada a interferência estatal em seu funcionamento.</p>
+      <div class="options">
+        <label><input type="radio" name="q85" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q85" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q85" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q86">
+      <p>86. A propriedade atenderá a sua função social, autorizando a Constituição a expropriação sem indenização para imóveis rurais onde sejam localizadas culturas ilegais de plantas psicotrópicas.</p>
+      <div class="options">
+        <label><input type="radio" name="q86" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q86" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q86" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q87">
+      <p>87. O Habeas Data é o remédio constitutional cabível para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de bancos de dados de entidades governamentais.</p>
+      <div class="options">
+        <label><input type="radio" name="q87" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q87" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q87" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO PROCESSUAL PENAL -->
+    <div class="section-header">DIREITO PROCESSUAL PENAL (88 a 95)</div>
+
+    <div class="question" id="q88">
+      <p>88. O inquérito policial é procedimento administrativo pré-processual, inquisitorial e dispensável para o ajuizamento da ação penal.</p>
+      <div class="options">
+        <label><input type="radio" name="q88" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q88" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q88" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q89">
+      <p>89. A autoridade policial poderá determinar o arquivamento do inquérito policial caso comprove a inexistência de autoria delitiva.</p>
+      <div class="options">
+        <label><input type="radio" name="q89" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q89" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q89" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q90">
+      <p>90. Nos crimes de ação penal pública condicionada à representação, o inquérito policial só poderá ser instaurado mediante a concordância formal da vítima ou de seu representante legal.</p>
+      <div class="options">
+        <label><input type="radio" name="q90" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q90" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q90" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q91">
+      <p>91. A ação penal privada subsiste na modalidade subsidiária da pública caso o Ministério Público não ofereça a denúncia no prazo legal.</p>
+      <div class="options">
+        <label><input type="radio" name="q91" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q91" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q91" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q92">
+      <p>92. O prazo para o oferecimento da denúncia, estando o réu preso, é de 5 dias, contados da data em que o Ministério Público receber os autos do inquérito policial.</p>
+      <div class="options">
+        <label><input type="radio" name="q92" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q92" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q92" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q93">
+      <p>93. A renúncia ao direito de queixa manifestada em relação a um dos coautores do crime estende-se a todos os demais, em obediência ao princípio da indivisibilidade.</p>
+      <div class="options">
+        <label><input type="radio" name="q93" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q93" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q93" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q94">
+      <p>94. O juiz poderá fundamentar sua decisão de condenação exclusivamente nos elementos informativos colhidos durante a fase do inquérito policial.</p>
+      <div class="options">
+        <label><input type="radio" name="q94" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q94" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q94" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q95">
+      <p>95. A representação do ofendido nos crimes de ação pública condicionada é irretratável após o recebimento da denúncia pelo juiz.</p>
+      <div class="options">
+        <label><input type="radio" name="q95" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q95" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q95" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO PENAL MILITAR -->
+    <div class="section-header">DIREITO PENAL MILITAR (96 a 105)</div>
+
+    <div class="question" id="q96">
+      <p>96. O Código Penal Militar adotou a teoria da atividade para determinar o tempo do crime militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q96" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q96" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q96" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q97">
+      <p>97. Os crimes militares por extensão são aqueles previstos na legislação penal comum praticados por militares nas situações delineadas no artigo 9º do Código Penal Militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q97" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q97" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q97" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q98">
+      <p>98. No Código Penal Militar, a tentativa é sempre punida com a pena correspondente ao crime consumado reduzida de um a dois terços, sem exceções.</p>
+      <div class="options">
+        <label><input type="radio" name="q98" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q98" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q98" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q99">
+      <p>99. A pena de morte prevista no Código Penal Militar é executada por enforcamento, em praça pública, durante a vigência do estado de guerra.</p>
+      <div class="options">
+        <label><input type="radio" name="q99" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q99" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q99" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q100">
+      <p>100. A pena de exclusão das Forças Armadas constitui pena acessória aplicável aos praças condenados a pena privativa de liberdade superior a 2 anos.</p>
+      <div class="options">
+        <label><input type="radio" name="q100" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q100" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q100" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q101">
+      <p>101. O crime militar de desacato a superior exige que o superior hierárquico esteja no exercício de suas funções no momento da ofensa.</p>
+      <div class="options">
+        <label><input type="radio" name="q101" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q101" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q101" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q102">
+      <p>102. O delito de dormitar em serviço (art. 203 do CPM) é classificado pela doutrina como crime propriamente militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q102" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q102" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q102" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q103">
+      <p>103. O crime de deserção consuma-se quando o militar ausenta-se sem licença do local em que deveria permanecer por mais de 8 dias consecutivos.</p>
+      <div class="options">
+        <label><input type="radio" name="q103" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q103" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q103" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q104">
+      <p>104. No concurso de agentes, a punibilidade de qualquer dos participantes independe da punibilidade dos outros participantes do mesmo delito militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q104" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q104" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q104" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q105">
+      <p>105. A superveniência de causa relativamente independente exclui a imputabilidade no âmbito do direito penal militar quando por si só produzir o resultado.</p>
+      <div class="options">
+        <label><input type="radio" name="q105" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q105" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q105" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITO PROCESSUAL PENAL MILITAR -->
+    <div class="section-header">DIREITO PROCESSUAL PENAL MILITAR (106 a 113)</div>
+
+    <div class="question" id="q106">
+      <p>106. O Código de Processo Penal Militar aplica-se aos processos da Justiça Militar Estadual, ressalvadas as disposições previstas em legislação estadual específica incompatível.</p>
+      <div class="options">
+        <label><input type="radio" name="q106" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q106" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q106" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q107">
+      <p>107. O Inquérito Policial Militar (IPM) é a instrução provisória que visa colher elementos para respaldar a propositura da ação penal militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q107" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q107" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q107" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q108">
+      <p>108. A ação penal militar é sempre pública e promovida mediante denúncia formulada pelo Ministério Público Militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q108" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q108" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q108" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q109">
+      <p>109. Os militares têm o dever legal de prender quem quer que seja encontrado em flagrante delito praticando crime militar.</p>
+      <div class="options">
+        <label><input type="radio" name="q109" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q109" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q109" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q110">
+      <p>110. A prisão preventiva militar pode ser decretada pelo Juiz de Direito ou pelo Conselho de Justiça durante o curso da instrução criminal.</p>
+      <div class="options">
+        <label><input type="radio" name="q110" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q110" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q110" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q111">
+      <p>111. A menagem pode ser concedida nos crimes cujo máximo da pena privativa de liberdade applied não exceda a 2 anos.</p>
+      <div class="options">
+        <label><input type="radio" name="q111" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q111" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q111" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q112">
+      <p>112. Consumada a deserção de praça sem estabilidade, esta será imediatamente excluída do serviço ativo da corporação.</p>
+      <div class="options">
+        <label><input type="radio" name="q112" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q112" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q112" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q113">
+      <p>113. O Conselho Permanente de Justiça é composto por 1 Juiz de Direito (Presidente) e por 4 juízes militares (oficiais).</p>
+      <div class="options">
+        <label><input type="radio" name="q113" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q113" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q113" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- DIREITOS HUMANOS -->
+    <div class="section-header">DIREITOS HUMANOS (114 a 120)</div>
+
+    <div class="question" id="q114">
+      <p>114. Os direitos humanos são caracterizados pela inalienabilidade, imprescritibilidade, universalidade e indivisibilidade.</p>
+      <div class="options">
+        <label><input type="radio" name="q114" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q114" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q114" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q115">
+      <p>115. A primeira dimensão ou geração dos direitos humanos reflete a afirmação das liberdades individuais clássicas, compreendendo os direitos civis e políticos.</p>
+      <div class="options">
+        <label><input type="radio" name="q115" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q115" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q115" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q116">
+      <p>116. A Declaração Universal dos Direitos Humanos aprovada pela ONU em 1948 possui forma jurídica original de tratado internacional vinculante.</p>
+      <div class="options">
+        <label><input type="radio" name="q116" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q116" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q116" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q117">
+      <p>117. De acordo com o Pacto de São José da Costa Rica (Convenção Americana sobre Direitos Humanos), o direito à vida é protegido pela lei desde o momento da concepção.</p>
+      <div class="options">
+        <label><input type="radio" name="q117" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q117" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q117" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q118">
+      <p>118. O Pacto de São José da Costa Rica proíbe expressamente a restauração da pena de morte nos Estados que a hajam abolido.</p>
+      <div class="options">
+        <label><input type="radio" name="q118" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q118" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q118" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q119">
+      <p>119. A Comissão Interamericana de Direitos Humanos e a Corte Interamericana de Direitos Humanos são órgãos integrantes do Sistema Interamericano de Proteção aos Direitos Humanos.</p>
+      <div class="options">
+        <label><input type="radio" name="q119" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q119" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q119" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="question" id="q120">
+      <p>120. As decisões proferidas pela Corte Interamericana de Direitos Humanos contra o Estado brasileiro possuem caráter definitivo e vinculante.</p>
+      <div class="options">
+        <label><input type="radio" name="q120" value="C"> <span>CERTO</span></label>
+        <label><input type="radio" name="q120" value="E"> <span>ERRADO</span></label>
+        <label><input type="radio" name="q120" value="SR" checked> <span>EM BRANCO</span></label>
+      </div>
+      <div class="feedback"></div>
+    </div>
+
+  </form>
+
+  <div class="controls">
+  <div class="controls-header">
+    <button type="button" onclick="calcularResultado()">FINALIZAR E CORRIGIR</button>
+    <!-- Botão de Fechar Resultado (Inicia oculto) -->
+    <button type="button" id="btnFechar" onclick="fecharResultado()" style="display: none; background-color: #dc3545; margin-left: 10px;">FECHAR RESULTADO</button>
+    <div id="result">Selecione as opções acima para responder.</div>
+  </div>
+  <div id="userAnswersSummary"></div>
+</div>
+</div>
+
+<script>
+  // Gabarito Oficial (120 Itens)
+  const answerKey = {
+    1: 'C', 2: 'E', 3: 'C', 4: 'E', 5: 'E', 6: 'E', 7: 'C', 8: 'C', 9: 'E', 10: 'E',
+    11: 'E', 12: 'C', 13: 'C', 14: 'C', 15: 'E', 16: 'C', 17: 'E', 18: 'C', 19: 'E', 20: 'E',
+    21: 'C', 22: 'C', 23: 'C', 24: 'E', 25: 'C', 26: 'C', 27: 'E', 28: 'C', 29: 'E', 30: 'C',
+    31: 'C', 32: 'C', 33: 'C', 34: 'C', 35: 'C', 36: 'C', 37: 'E', 38: 'C', 39: 'C', 40: 'C',
+    41: 'C', 42: 'C', 43: 'C', 44: 'C', 45: 'C', 46: 'C', 47: 'C', 48: 'C', 49: 'C', 50: 'C',
+    51: 'C', 52: 'C', 53: 'C', 54: 'C', 55: 'C', 56: 'E', 57: 'C', 58: 'E', 59: 'C', 60: 'C',
+    61: 'E', 62: 'C', 63: 'C', 64: 'E', 65: 'E', 66: 'C', 67: 'E', 68: 'E', 69: 'C', 70: 'E',
+    71: 'C', 72: 'C', 73: 'E', 74: 'C', 75: 'C', 76: 'C', 77: 'E', 78: 'C', 79: 'E', 80: 'C',
+    81: 'C', 82: 'E', 83: 'E', 84: 'C', 85: 'C', 86: 'C', 87: 'C', 88: 'C', 89: 'E', 90: 'C',
+    91: 'C', 92: 'C', 93: 'C', 94: 'E', 95: 'E', 96: 'C', 97: 'C', 98: 'E', 99: 'E', 100: 'C',
+    101: 'C', 102: 'C', 103: 'C', 104: 'C', 105: 'E', 106: 'E', 107: 'C', 108: 'C', 109: 'C',
+    110: 'C', 111: 'E', 112: 'C', 113: 'C', 114: 'C', 115: 'C', 116: 'E', 117: 'C', 118: 'C',
+    119: 'C', 120: 'C'
+  };
+
+  // Inicializa o estilo da marcação padrão em branco
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.options input[type="radio"]:checked').forEach(radio => {
+      if (radio.value === 'SR') {
+        radio.parentElement.classList.add('selected-branco');
+      }
+    });
+  });
+
+  // Atualiza dinamicamente as cores ao clicar
+  document.addEventListener('change', function(e) {
+    if (e.target.type === 'radio') {
+      const optionsContainer = e.target.closest('.options');
+      const labels = optionsContainer.querySelectorAll('label');
+      
+      labels.forEach(lbl => {
+        lbl.classList.remove('selected-certo', 'selected-errado', 'selected-branco');
+      });
+
+      const parentLabel = e.target.parentElement;
+      if (e.target.value === 'C') parentLabel.classList.add('selected-certo');
+      else if (e.target.value === 'E') parentLabel.classList.add('selected-errado');
+      else if (e.target.value === 'SR') parentLabel.classList.add('selected-branco');
+    }
+  });
+
+  function calcularResultado() {
+    let acertos = 0;
+    let erros = 0;
+    let emBranco = 0;
+    let userAnswersList = [];
+
+    for (let i = 1; i <= 120; i++) {
+      const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
+      const feedbackDiv = document.querySelector(`#q${i} .feedback`);
+      const correctVal = answerKey[i];
+
+      if (selectedOption) {
+        const userVal = selectedOption.value;
+
+        if (userVal === 'SR') {
+          emBranco++;
+          userAnswersList.push(`<div class="ans-tag branco">${i}-Branco</div>`);
+          feedbackDiv.style.display = 'block';
+          feedbackDiv.className = 'feedback';
+          feedbackDiv.innerHTML = `Em Branco. Gabarito: <strong>${correctVal === 'C' ? 'CERTO' : 'ERRADO'}</strong>`;
+        } else if (userVal === correctVal) {
+          acertos++;
+          userAnswersList.push(`<div class="ans-tag certo">${i}-${userVal}</div>`);
+          feedbackDiv.style.display = 'block';
+          feedbackDiv.className = 'feedback correct-ans';
+          feedbackDiv.innerHTML = `✓ CORRETO! (Gabarito: ${correctVal === 'C' ? 'CERTO' : 'ERRADO'})`;
+        } else {
+          erros++;
+          userAnswersList.push(`<div class="ans-tag errado">${i}-${userVal}</div>`);
+          feedbackDiv.style.display = 'block';
+          feedbackDiv.className = 'feedback incorrect-ans';
+          feedbackDiv.innerHTML = `✗ INCORRETO! (Gabarito: ${correctVal === 'C' ? 'CERTO' : 'ERRADO'})`;
+        }
+      }
+    }
+
+    const notaLiquida = acertos - erros;
+
+    const resultBox = document.getElementById('result');
+    resultBox.innerHTML = `
+      Acertos: <span style="color: green;">${acertos}</span> | 
+      Erros: <span style="color: red;">${erros}</span> | 
+      Em Branco: ${emBranco}<br>
+      <strong>Nota Líquida CEBRASPE: ${notaLiquida} pontos</strong>
+    `;
+
+    const summaryBox = document.getElementById('userAnswersSummary');
+    summaryBox.innerHTML = `
+      <div class="summary-title">Resumo das Suas Respostas:</div>
+      <div class="answers-grid">
+        ${userAnswersList.join('')}
+      </div>
+    `;
+
+    // Exibe o botão de fechar e rola a tela suavemente
+    document.getElementById('btnFechar').style.display = 'inline-block';
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  }
+
+  // NOVA FUNÇÃO: Oculta a correção das questões e esconde o resultado
+  function fecharResultado() {
+    // Esconde os textos de feedback individual de cada questão
+    for (let i = 1; i <= 120; i++) {
+      const feedbackDiv = document.querySelector(`#q${i} .feedback`);
+      if (feedbackDiv) {
+        feedbackDiv.style.display = 'none';
+      }
+    }
+
+    // Reseta o painel e limpa o resumo
+    document.getElementById('result').innerHTML = 'Selecione as opções acima para responder.';
+    document.getElementById('userAnswersSummary').innerHTML = '';
+    
+    // Oculta o próprio botão de fechar
+    document.getElementById('btnFechar').style.display = 'none';
+
+    // Rola de volta para o topo do formulário
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
