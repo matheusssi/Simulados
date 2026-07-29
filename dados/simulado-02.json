@@ -1,0 +1,849 @@
+[
+  {
+    "id": "pmal-2026-especifico",
+    "titulo": "SIMULADO DE ELITE PM AL - EDITAL COMPLETO",
+    "subtitulo": "120 ITENS - PADRÃO CEBRASPE (CERTO / ERRADO) - ALTA DIFICULDADE",
+    "questoes": [
+      {
+        "id": 1,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": "Texto I\nO vice-presidente e ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin, afirmou nesta terça-feira (28) que o Brasil tem a meta de dobrar o volume de comércio bilateral com a Coreia do Sul nos próximos anos. A declaração foi feita durante a assinatura de atos de cooperação comercial e tecnológica no Palácio do Itamaraty, em Brasília. Segundo Alckmin, o estreitamento das relações econômicas com Seul constitui uma 'necessidade estratégica' para o fortalecimento do parque industrial brasileiro e a atração de investimentos em semicondutores e transição energética. Ele ressaltou, ainda, que a complementaridade entre as duas economias permite expandir a pauta exportadora do agronegócio nacional enquanto se incorporam tecnologias de ponta ao setor produtivo.",
+        "enunciado": "1. Infere-se do Texto I que o interesse do Brasil no adensamento das relações com a Coreia do Sul restringe-se ao escoamento da produção primária do agronegócio.",
+        "gabarito": "E"
+      },
+      {
+        "id": 2,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "2. No Texto I, o vocábulo 'estreitamento' é formado pelo processo de derivação parassintética.",
+        "gabarito": "E"
+      },
+      {
+        "id": 3,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "3. No trecho 'afirmou nesta terça-feira (28) que o Brasil tem a meta', a oração introduzida por 'que' exerce a função sintática de sujeito da oração principal.",
+        "gabarito": "E"
+      },
+      {
+        "id": 4,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "4. A substituição do elemento conector 'enquanto' por 'conquanto' no Texto I manteria a coerência e a correção gramatical do trecho.",
+        "gabarito": "E"
+      },
+      {
+        "id": 5,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "5. A oração 'enquanto se incorporam tecnologias de ponta' apresenta estrutura na voz passiva sintética, sendo 'tecnologias de ponta' o sujeito paciente.",
+        "gabarito": "C"
+      },
+      {
+        "id": 6,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "6. A supressão da vírgula empregada após 'Ele ressaltou, ainda,' prejudicaria a correção gramatical do texto.",
+        "gabarito": "C"
+      },
+      {
+        "id": 7,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "7. Caso a forma verbal 'permite' fosse flexionada no plural ('permitem'), a concordância verbal continuaria correta ao concordar com 'as duas economias'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 8,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "8. Em 'atração de investimentos em semicondutores', a palavra 'em' vincula-se por regência ao substantivo 'atração'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 9,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "9. A substituição de 'constitui uma necessidade' por 'constitui à uma necessidade' atende rigorosamente às regras de crase da norma-padrão.",
+        "gabarito": "E"
+      },
+      {
+        "id": 10,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "10. No segmento 'Ele ressaltou, ainda, que...', o pronome 'Ele' atua como elemento anafórico que resgata o núcleo nominal 'Geraldo Alckmin'.",
+        "gabarito": "C"
+      },
+      {
+        "id": 11,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "11. A reescrita 'Segundo Alckmin, estreitar as relações econômicas com Seul constitui necessidade estratégica' preserva a correção gramatical e o sentido original do Texto I.",
+        "gabarito": "C"
+      },
+      {
+        "id": 12,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "12. Os vocábulos 'terça-feira', 'vice-presidente' e 'setor-produtivo' são compostosgrafados obrigatoriamente com hífen pela mesma regra ortográfica.",
+        "gabarito": "E"
+      },
+      {
+        "id": 13,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "13. O verbo 'afirmou' classifica-se, no contexto do Texto I, como transitivo direto e indireto.",
+        "gabarito": "E"
+      },
+      {
+        "id": 14,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "14. A expressão 'Palácio do Itamaraty' constitui adjunto adnominal da forma verbal 'assinatura'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 15,
+        "materia": "LÍNGUA PORTUGUESA (1 a 15)",
+        "texto": null,
+        "enunciado": "15. A colocação pronominal em 'se incorporam tecnologias' atende à norma culta por haver conjunção subordinativa atraindo o pronome oblíquo átono.",
+        "gabarito": "C"
+      },
+      {
+        "id": 16,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "16. Se três policiais de folga gastam R$ 126,00 em um restaurante e decidem dividir a conta em partes diretamente proporcionais às idades de 20, 22 e 21 anos, a maior cota individual será superior a R$ 43,00.",
+        "gabarito": "C"
+      },
+      {
+        "id": 17,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "17. Uma guarnição de 12 policiais realiza a varredura de um bairro em 6 horas. Mantida a produtividade individual, 9 policiais realizariam a mesma varredura em exatamente 8 horas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 18,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "18. Se uma cota de combustível da PM sofreu um aumento de 15% e, no mês seguinte, um desconto promocional de 15%, o valor final ficou igual ao valor original.",
+        "gabarito": "E"
+      },
+      {
+        "id": 19,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "19. A aplicação de R$ 10.000,00 a juros compostos de 10% ao ano, durante 2 anos, gera um montante final de R$ 12.100,00.",
+        "gabarito": "C"
+      },
+      {
+        "id": 20,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "20. Uma taxa nominal de 12% ao ano com capitalização mensal possui taxa efetiva anual superior a 12%.",
+        "gabarito": "C"
+      },
+      {
+        "id": 21,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "21. A taxa aparente ajustada pela inflação resulta na taxa de juros real; se a inflação for superior à taxa aparente, a taxa real será negativa.",
+        "gabarito": "C"
+      },
+      {
+        "id": 22,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "22. Duas taxas de juros são ditas equivalentes sob o regime de juros simples quando, aplicadas ao mesmo capital durante o mesmo prazo, produzem juros iguais em periodicidades diferentes.",
+        "gabarito": "E"
+      },
+      {
+        "id": 23,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "23. O resultado da operação simples de expressão numérica (-3) * (-2) + (-10) / 2 é igual a -1.",
+        "gabarito": "E"
+      },
+      {
+        "id": 24,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "24. No desconto comercial simples (por fora), a taxa de desconto incide sobre o valor nominal do título.",
+        "gabarito": "C"
+      },
+      {
+        "id": 25,
+        "materia": "MATEMÁTICA (16 a 25)",
+        "texto": null,
+        "enunciado": "25. O valor racional líquido (desconto por dentro) de um título é sempre menor do que o seu valor comercial líquido quando submetido à mesma taxa e prazo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 26,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "26. No Windows 11, o comando 'Win + L' bloqueia a sessão do usuário atual e retorna à tela de logon sem encerrar os programas em execução.",
+        "gabarito": "C"
+      },
+      {
+        "id": 27,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "27. No Microsoft Word 365, a funcionalidade 'Controlar Alterações' impede totalmente que outros usuários editem o documento original.",
+        "gabarito": "E"
+      },
+      {
+        "id": 28,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "28. O protocolo IMAP permite gerenciar pastas e e-mails diretamente no servidor, mantendo as alterações sincronizadas entre múltiplos dispositivos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 29,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "29. O spyware é um programa malicioso cujo propósito primário é replicar-se autonomamente através da exploração de vulnerabilidades na rede, sem infectar arquivos existentes.",
+        "gabarito": "E"
+      },
+      {
+        "id": 30,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "30. O modelo SaaS (Software as a Service) exige que o cliente configure e gerencie os servidores virtuais e o sistema operacional subjacente para executar suas aplicações.",
+        "gabarito": "E"
+      },
+      {
+        "id": 31,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "31. A realização de backup incremental armazena apenas os dados que foram alterados desde o último backup completo ou incremental realizado.",
+        "gabarito": "C"
+      },
+      {
+        "id": 32,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "32. O atalho de pesquisa no Google utilizando aspas duplas (\"polícia militar alagoas\") obriga o mecanismo a buscar pela correspondência exata do termo contido entre as aspas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 33,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "33. Um Firewall de aplicação opera exclusivamente inspecionando endereços IP e portas de origem e destino na camada de transporte.",
+        "gabarito": "E"
+      },
+      {
+        "id": 34,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "34. No Microsoft Excel, a referência de célula $B$4 é classificada como relativa, permitindo a atualização automática das linhas e colunas ao ser copiada.",
+        "gabarito": "E"
+      },
+      {
+        "id": 35,
+        "materia": "NOÇÕES DE INFORMÁTICA (26 a 35)",
+        "texto": null,
+        "enunciado": "35. Uma Intranet utiliza os mesmos protocolos e padrões da Internet (como TCP/IP e HTTP), mas restringe seu acesso a membros autorizados de uma organização.",
+        "gabarito": "C"
+      },
+      {
+        "id": 36,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "36. A emancipação política de Alagoas, ocorrida em 1817, esteve intimamente vinculada à punição imposta à Capitania de Pernambuco em razão da eclosão da Revolução Pernambucana.",
+        "gabarito": "C"
+      },
+      {
+        "id": 37,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "37. O Quilombo dos Palmares situava-se predominantemente na região da Serra da Barriga, integrando a atual estrutura do município de União dos Palmares.",
+        "gabarito": "C"
+      },
+      {
+        "id": 38,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "38. A divisão mesorregional de Alagoas compreende Litoral, Zona da Mata, Agreste e Sertão, sendo o Agreste caracterizado pelo domínio absoluto da monocultura sucroalcooleira de grande porte.",
+        "gabarito": "E"
+      },
+      {
+        "id": 39,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "39. Maceió tornou-se a capital definitiva da província de Alagoas ao substituir a antiga capital Marechal Deodoro (então Vila Madalena da Lagoa do Sul) em 1839.",
+        "gabarito": "C"
+      },
+      {
+        "id": 40,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "40. O Rio São Francisco, que delimita a divisa natural entre Alagoas e Sergipe, possui grande relevância socioeconômica na geração de energia hidrelétrica e projetos de irrigação no Sertão alagoano.",
+        "gabarito": "C"
+      },
+      {
+        "id": 41,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "41. A liderança de Zumbi dos Palmares opôs-se à proposta de paz de Ganga Zumba, recusando a submissão do quilombo às imposições do governo colonial português.",
+        "gabarito": "C"
+      },
+      {
+        "id": 42,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "42. O Guerreiro é uma manifestação folclórica tipicamente alagoana que resulta da fusão de folguedos como o Reisado, o Pastoril e as Cheganças.",
+        "gabarito": "C"
+      },
+      {
+        "id": 43,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "43. A economia alagoana contemporânea abandonou totalmente o setor agroindustrial canavieiro, tendo o turismo de massa como única fonte do PIB estadual.",
+        "gabarito": "E"
+      },
+      {
+        "id": 44,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "44. Penedo é reconhecida por seu valioso acervo arquitetônico colonial barroco, fundado às margens do Rio São Francisco.",
+        "gabarito": "C"
+      },
+      {
+        "id": 45,
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (36 a 45)",
+        "texto": null,
+        "enunciado": "45. O Poder Judiciário do Estado de Alagoas tem como órgão máximo o Tribunal de Justiça, sediado na capital do Estado.",
+        "gabarito": "C"
+      },
+      {
+        "id": 46,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "46. Segundo a Lei Estadual nº 5.346/1992, a hierarquia e a disciplina são as bases institucionais da Polícia Militar de Alagoas, crescendo a responsabilidade com a elevação do grau hierárquico.",
+        "gabarito": "C"
+      },
+      {
+        "id": 47,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "47. Conforme o Regulamento Disciplinar da PMAL (Decreto Estadual nº 37.042/1996), a pena disciplinar de prisão pode ultrapassar 30 dias contínuos em casos graves de insubordinação militar.",
+        "gabarito": "E"
+      },
+      {
+        "id": 48,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "48. De acordo com a Lei nº 7.716/1989, recusar ou impedir o acesso de alguém a estabelecimento comercial por motivos de preconceito de raça constitui crime punível com reclusão.",
+        "gabarito": "C"
+      },
+      {
+        "id": 49,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "49. Segundo a Lei de Crimes Hediondos (Lei nº 8.072/1990), o crime de roubo é classificado como hediondo em qualquer de suas modalidades, inclusive na forma simples.",
+        "gabarito": "E"
+      },
+      {
+        "id": 50,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "50. Na Lei de Organização Criminosa (Lei nº 12.850/2013), a infiltração de agentes policiais exige autorização judicial fundamentada e parecer prévio favorável do Ministério Público.",
+        "gabarito": "C"
+      },
+      {
+        "id": 51,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "51. Conforme a Lei de Tortura (Lei nº 9.455/1997), a condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.",
+        "gabarito": "C"
+      },
+      {
+        "id": 52,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "52. A Lei de Crimes Ambientais (Lei nº 9.605/1998) admite a responsabilização penal de pessoas jurídicas, sem excluir a responsabilidade individual das pessoas físicas autoras ou coautoras.",
+        "gabarito": "C"
+      },
+      {
+        "id": 53,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "53. Nos termos do Estatuto do Desarmamento (Lei nº 10.826/2003), o crime de porte ilegal de arma de fogo de uso permitido é inafiançável em qualquer hipótese por determinação legal expressa mantida integralmente pelo STF.",
+        "gabarito": "E"
+      },
+      {
+        "id": 54,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "54. Na Lei de Drogas (Lei nº 11.343/2006), a conduta de adquirir ou transportar drogas para consumo pessoal (art. 28) é punida com pena privativa de liberdade em regime aberto.",
+        "gabarito": "E"
+      },
+      {
+        "id": 55,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "55. De acordo com a Lei Maria da Penha (Lei nº 11.340/2006), constatada a prática de violência doméstica, o policial militar poderá afastar imediatamente o agressor do lar quando o município não for sede de comarca e não houver delegado disponível.",
+        "gabarito": "C"
+      },
+      {
+        "id": 56,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "56. Segundo o CTB (Lei nº 9.503/1997), conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool constitui crime de trânsito, sujeitando o condutor às penas de detenção, multa e suspensão da CNH.",
+        "gabarito": "C"
+      },
+      {
+        "id": 57,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "57. Conforme a Lei de Abuso de Autoridade (Lei nº 13.869/2019), o elemento subjetivo do tipo exige a intenção específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou por mero capricho ou satisfação pessoal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 58,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "58. A prisão temporária (Lei nº 7.960/1989) tem prazo de 5 dias prorrogável por igual período em caso de extrema e comprovada necessidade, aplicável exclusivamente à fase do inquérito policial.",
+        "gabarito": "C"
+      },
+      {
+        "id": 59,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "59. De acordo com a Lei nº 9.099/1995, aos crimes com pena máxima não superior a 2 anos ou multa aplica-se o procedimento do Juizado Especial Criminal, lavrando-se Termo Circunstanciado de Ocorrência (TCO).",
+        "gabarito": "C"
+      },
+      {
+        "id": 60,
+        "materia": "LEGISLAÇÃO PERTINENTE AO PMAL (46 a 60)",
+        "texto": null,
+        "enunciado": "60. A Lei Federal nº 14.751/2023 (Lei Orgânica das PMs) estabelece normas gerais de organização, garantias, direitos e deveres dos policiais militares dos Estados, DF e Territórios.",
+        "gabarito": "C"
+      },
+      {
+        "id": 61,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "61. O princípio da supremacia do interesse público sobre o privado é imperativo explícito na redação do artigo 37 da Constituição Federal de 1988.",
+        "gabarito": "E"
+      },
+      {
+        "id": 62,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "62. O poder disciplinar autoriza a Administração a punir as infrações funcionais de seus servidores, bem como de particulares sujeitos à disciplina interna da administração (como contratados).",
+        "gabarito": "C"
+      },
+      {
+        "id": 63,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "63. Os atos administrativos vinculados admitem margem de conveniência e oportunidade ao administrador no momento de sua edição.",
+        "gabarito": "E"
+      },
+      {
+        "id": 64,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "64. A inexigibilidade de licitação ocorre quando há inviabilidade de competição, como na contratação de fornecedor exclusivo.",
+        "gabarito": "C"
+      },
+      {
+        "id": 65,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "65. Os bens públicos de uso especial são alienáveis sem necessidade de desafetação prévia.",
+        "gabarito": "E"
+      },
+      {
+        "id": 66,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "66. As autarquias integram a administração indireta, possuem personalidade jurídica de direito público e são criadas diretamente por lei específica.",
+        "gabarito": "C"
+      },
+      {
+        "id": 67,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "67. O controle parlamentar direto exercido pelo Poder Legislativo sobre os atos da Administração Pública prescinde do auxílio do Tribunal de Contas.",
+        "gabarito": "E"
+      },
+      {
+        "id": 68,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "68. A responsabilidade civil das pessoas jurídicas de direito público por danos causados por seus agentes a terceiros depende da comprovação do elemento culpa ou dolo do agente.",
+        "gabarito": "E"
+      },
+      {
+        "id": 69,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "69. A permissão de serviço público é ato unilateral, discricionário e precário, formalizado mediante contrato de adesão.",
+        "gabarito": "C"
+      },
+      {
+        "id": 70,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "70. A presunção de legitimidade dos atos administrativos transfere o ônus da prova de sua invalidade para o particular que a alega.",
+        "gabarito": "C"
+      },
+      {
+        "id": 71,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "71. As cláusulas exorbitantes nos contratos administrativos conferem prerrogativas especiais à Administração, como a alteração unilateral do contrato dentro dos limites legais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 72,
+        "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO (61 a 72)",
+        "texto": null,
+        "enunciado": "72. O princípio da motivação exige que a Administração indique os fundamentos de fato e de direito para a edição de seus atos administrativos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 73,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "73. O remédio constitucional do Habeas Data é o instrumento hábil para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de bancos de dados de entidades governamentais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 74,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "74. Os Territórios Federais integram a estrutura federativa brasileira como entes autônomos dotados de auto-organização e capacidade legislativa própria igualada aos Estados.",
+        "gabarito": "E"
+      },
+      {
+        "id": 75,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "75. Durante a vigência do Estado de Sítio, é absolutamente vedada qualquer restrição aos direitos de reunião e de sigilo de correspondência.",
+        "gabarito": "E"
+      },
+      {
+        "id": 76,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "76. Às forças armadas compete a garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem.",
+        "gabarito": "C"
+      },
+      {
+        "id": 77,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "77. É constitucionalmente assegurado o direito à greve aos servidores públicos civis e aos militares estaduais, nos termos definidos em lei específica.",
+        "gabarito": "E"
+      },
+      {
+        "id": 78,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "78. A decretação de Estado de Defesa exige aprovação prévia do Congresso Nacional para que produza seus efeitos imediatos.",
+        "gabarito": "E"
+      },
+      {
+        "id": 79,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "79. A interceptação telefônica para fins de investigação criminal exige obrigatoriamente ordem judicial fundamentada e observância da forma estabelecida em lei.",
+        "gabarito": "C"
+      },
+      {
+        "id": 80,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "80. A criação, incorporação, fusão e desmembramento de Municípios far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 81,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "81. O habeas corpus é gratuito para as ações constitutivas, mas sujeita-se ao recolhimento de custas processuais em sede recursal.",
+        "gabarito": "E"
+      },
+      {
+        "id": 82,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "82. O Mandado de Injunção será concedido sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 83,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "83. A Polícia Rodoviária Federal é órgão permanente, estruturado em carreira, destinado, na forma da lei, ao patrulhamento ostensivo das rodovias federais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 84,
+        "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL (73 a 84)",
+        "texto": null,
+        "enunciado": "84. A extradição de brasileiro nato é admitida excepcionalmente em caso de envolvimento comprovado em narcotráfico internacional praticado após a naturalização.",
+        "gabarito": "E"
+      },
+      {
+        "id": 85,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "85. O inquérito policial possui natureza jurídica de procedimento administrativo informativo, não se lhe aplicando os princípios do contraditório e da ampla defesa com a plenitude da ação penal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 86,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "86. A ação penal pública incondicionada é promovida mediante denúncia do Ministério Público, dependendo contudo da concordância formal do ofendido.",
+        "gabarito": "E"
+      },
+      {
+        "id": 87,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "87. A ação penal privada subsidiária da pública é cabível quando o Ministério Público não oferecer a denúncia no prazo legalmente previsto.",
+        "gabarito": "C"
+      },
+      {
+        "id": 88,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "88. O arquivamento do inquérito policial determinado por atipicidade da conduta impede a reabertura das investigações mesmo diante do surgimento de novas provas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 89,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "89. O MP dispõe do princípio da oportunidade absoluta, podendo discricionariamente deixar de propor ação penal pública incondicionada sem fundamentação legal.",
+        "gabarito": "E"
+      },
+      {
+        "id": 90,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "90. A autoridade policial poderá mandar arquivar autos de inquérito policial se constatar a ausência completa de autoria e materialidade.",
+        "gabarito": "E"
+      },
+      {
+        "id": 91,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "91. O ofendido ou seu representante legal poderá interpor recurso do despacho que indeferir a instauração do inquérito policial ao chefe de Polícia.",
+        "gabarito": "C"
+      },
+      {
+        "id": 92,
+        "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL (85 a 92)",
+        "texto": null,
+        "enunciado": "92. A representação do ofendido na ação penal pública condicionada é irretratável após o oferecimento da denúncia pelo Ministério Público.",
+        "gabarito": "C"
+      },
+      {
+        "id": 93,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "93. Aplica-se a lei penal militar ao crime praticado a bordo de aeronave militar brasileira onde quer que se encontre.",
+        "gabarito": "C"
+      },
+      {
+        "id": 94,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "94. Os crimes militares por extensão são aqueles previstos na legislação penal comum praticados por militares nas hipóteses do art. 9º, II do Código Penal Militar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 95,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "95. O militar em situação de reforma não está sujeito à jurisdição penal militar em nenhuma hipótese prevista no CPM.",
+        "gabarito": "E"
+      },
+      {
+        "id": 96,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "96. A pena acessória de perda do posto e da patente é aplicada aos oficiais condenados à pena privativa de liberdade superior a 2 anos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 97,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "97. No concurso de agentes no Direito Penal Militar, a punibilidade do mandante é afastada se o executor direto agir com excesso culposo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 98,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "98. Considera-se crime propriamente militar aquele que só encontra previsão no Código Penal Militar e só pode ser praticado por militar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 99,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "99. A menoridade de 18 anos gera a inimputabilidade penal militar, sendo o agente submetido às normas da legislação especial infracional.",
+        "gabarito": "C"
+      },
+      {
+        "id": 100,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "100. A pena de morte é admitida no Direito Penal Militar brasileiro exclusivamente em tempo de guerra declarada, executada por fuzilamento.",
+        "gabarito": "C"
+      },
+      {
+        "id": 101,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "101. A prescrição da pretensão punitiva penal militar interrompe-se pela instauração do Inquérito Policial Militar.",
+        "gabarito": "E"
+      },
+      {
+        "id": 102,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "102. O crime militar de violência contra superior (art. 157 do CPM) exige a qualidade especial de militar no sujeito ativo e no sujeito passivo.",
+        "gabarito": "C"
+      },
+      {
+        "id": 103,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "103. O estado de necessidade no CPM pode ser alegado pelo militar mesmo quando este tinha o dever legal de enfrentar o perigo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 104,
+        "materia": "NOÇÕES DE DIREITO PENAL MILITAR (93 a 104)",
+        "texto": null,
+        "enunciado": "104. A reforma do militar pode figurar como efeito secundário ou pena acessória decorrente da condenação penal militar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 105,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "105. A Polícia Judiciária Militar é exercida pelos oficiais das forças armadas e forças auxiliares no âmbito de suas respectivas atribuições.",
+        "gabarito": "C"
+      },
+      {
+        "id": 106,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "106. O Inquérito Policial Militar (IPM) tem prazo legal de conclusão de 20 dias se o indiciado estiver preso, e de 40 dias se estiver solto.",
+        "gabarito": "C"
+      },
+      {
+        "id": 107,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "107. A menagem é medida cautelar pessoal privativa do processo penal militar aplicável aos crimes cuja pena máxima não exceda a 2 anos.",
+        "gabarito": "E"
+      },
+      {
+        "id": 108,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "108. A prisão em flagrante delito por crime militar pode ser efetuada por qualquer militar, devendo o preso ser apresentado incontinenti à autoridade militar competente.",
+        "gabarito": "C"
+      },
+      {
+        "id": 109,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "109. O Conselho Permanente de Justiça na Justiça Militar Estadual é composto por 1 juiz de direito (juiz togado) e 4 juízes militares (oficiais).",
+        "gabarito": "C"
+      },
+      {
+        "id": 110,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "110. No crime de deserção de praça sem estabilidade, o processo especial tem início imediato após a lavratura do termo de deserção e captura do desertor.",
+        "gabarito": "C"
+      },
+      {
+        "id": 111,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "111. O Conselho Especial de Justiça destina-se ao julgamento de praças e civis que cometam crimes militares no âmbito das guarnições.",
+        "gabarito": "E"
+      },
+      {
+        "id": 112,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "112. A liberdade provisória no Código de Processo Penal Militar é vedada nos casos de crimes militares contra a segurança externa do país.",
+        "gabarito": "C"
+      },
+      {
+        "id": 113,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "113. A ação penal militar é sempre pública incondicionada, promovida obrigatoriamente mediante denúncia do Ministério Público Militar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 114,
+        "materia": "NOÇÕES DE PROCESSUAL PENAL MILITAR (105 a 114)",
+        "texto": null,
+        "enunciado": "114. A prisão preventiva em processo penal militar pode ser decretada pelo encarregado do IPM independentemente de ordem judicial.",
+        "gabarito": "E"
+      },
+      {
+        "id": 115,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "115. Os Direitos Humanos são dotados da característica da indisponibilidade, não podendo ser objeto de renúncia válida por parte de seu titular.",
+        "gabarito": "C"
+      },
+      {
+        "id": 116,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "116. A Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica) foi incorporada ao ordenamento jurídico brasileiro sob o status equivalente a emenda constitucional por ter sido aprovada pelo rito do art. 5º, § 3º da CF/88.",
+        "gabarito": "E"
+      },
+      {
+        "id": 117,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "117. O Sistema Interamericano de Proteção aos Direitos Humanos é composto por dois órgãos principais: a Comissão Interamericana e a Corte Interamericana de Direitos Humanos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 118,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "118. O Pacto de San José da Costa Rica admite expressamente o restabelecimento da pena de morte nos Estados partes que já a tenham abolido de sua legislação penal.",
+        "gabarito": "E"
+      },
+      {
+        "id": 119,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "119. A DUDH prevê que o indivíduo tem deveres para com a comunidade, na qual o livre e pleno desenvolvimento de sua personalidade é possível.",
+        "gabarito": "C"
+      },
+      {
+        "id": 120,
+        "materia": "NOÇÕES DE DIREITOS HUMANOS (115 a 120)",
+        "texto": null,
+        "enunciado": "120. A tese do duplo grau de jurisdição ordinária e o direito à audiência de custódia encontram fundamentação expressa no texto do Pacto de San José da Costa Rica.",
+        "gabarito": "C"
+      }
+    ]
+  }
+]

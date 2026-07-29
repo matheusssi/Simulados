@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulado PM AL - Cebraspe</title>
+  <style>
+    :root {
+      --primary: #002b49;
+      --secondary: #005691;
+      --bg: #f4f6f8;
+      --card-bg: #ffffff;
+      --text-bg: #eef2f5;
+      --success: #28a745;
+      --danger: #dc3545;
+      --warning: #ffc107;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      padding: 15px;
+      margin: 0;
+      color: #333;
+      padding-bottom: 90px;
+    }
+
+    .container { max-width: 900px; margin: 0 auto; }
+
+    .voltar-link {
+      display: inline-block;
+      margin-bottom: 15px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .header-simulado {
+      background: var(--primary);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .header-simulado h1 { margin: 0 0 8px 0; font-size: 1.5em; }
+    .header-simulado p { margin: 0; font-size: 0.95em; opacity: 0.9; }
+
+    /* Painel do Resultado */
+    #painel-resultado {
+      display: none;
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 2px solid var(--primary);
+      text-align: center;
+    }
+
+    .grid-resultado {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 10px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+    .card-res {
+      padding: 12px;
+      border-radius: 6px;
+      background: #f8f9fa;
+      font-weight: bold;
+    }
+
+    .card-res.nota { background: #e3f2fd; color: var(--primary); font-size: 1.1em; }
+    .card-res.certas { background: #d4edda; color: #155724; }
+    .card-res.erradas { background: #f8d7da; color: #721c24; }
+    .card-res.brancas { background: #fff3cd; color: #856404; }
+
+    /* Área da Lista de Respostas para Compartilhar */
+    .compartilhar-box {
+      background: var(--text-bg);
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 15px;
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    .compartilhar-box h3 {
+      margin-top: 0;
+      font-size: 1em;
+      color: var(--primary);
+    }
+
+    .textarea-gabarito {
+      width: 100%;
+      height: 120px;
+      font-family: monospace;
+      font-size: 0.9em;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      background: #fff;
+    }
+
+    .btn-copiar {
+      background: var(--secondary);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 8px;
+      width: 100%;
+    }
+
+    /* Card de cada questão */
+    .questao-card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      border-left: 4px solid var(--secondary);
+    }
+
+    .materia-tag {
+      font-size: 0.8em;
+      font-weight: bold;
+      color: var(--secondary);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .texto-apoio {
+      background-color: var(--text-bg);
+      border-left: 3px solid #ccc;
+      padding: 12px;
+      margin-bottom: 12px;
+      font-size: 0.9em;
+      line-height: 1.4;
+      white-space: pre-line;
+      word-break: break-word;
+    }
+
+    .enunciado {
+      font-size: 1em;
+      line-height: 1.5;
+      font-weight: 500;
+      margin-bottom: 15px;
+      word-break: break-word;
+    }
+
+    /* Opções */
+    .opcoes {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .opcoes label {
+      cursor: pointer;
+      padding: 10px 16px;
+      border: 2px solid #ccc;
+      border-radius: 20px;
+      background: #fff;
+      font-weight: bold;
+      font-size: 0.85em;
+      transition: all 0.2s ease;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+
+    .opcoes input[type="radio"] { display: none; }
+
+    .opcoes label.selected {
+      background-color: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    /* Feedback do Gabarito na Questão */
+    .gabarito-info {
+      display: none;
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+
+    .gabarito-info.correto {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .gabarito-info.incorreto {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    /* Barra Fixa */
+    .footer-actions {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      padding: 12px 20px;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .btn-finalizar {
+      background: var(--success);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .loading {
+      text-align: center;
+      font-size: 1.1em;
+      padding: 30px;
+      background: white;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 10px; padding-bottom: 85px; }
+      .header-simulado { padding: 15px; }
+      .header-simulado h1 { font-size: 1.2em; }
+      .questao-card { padding: 15px; }
+      .opcoes label { padding: 8px 10px; font-size: 0.8em; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <a href="index.html" class="voltar-link">← Voltar para a lista</a>
+
+  <div class="header-simulado">
+    <h1 id="simulado-titulo">Carregando...</h1>
+    <p id="simulado-subtitulo"></p>
+  </div>
+
+  <!-- Painel de Resultado -->
+  <div id="painel-resultado">
+    <h2>Resultado do Simulado</h2>
+    <div class="grid-resultado">
+      <div class="card-res nota" id="res-nota">Nota Líquida: 0</div>
+      <div class="card-res certas" id="res-certas">Acertos: 0</div>
+      <div class="card-res erradas" id="res-erradas">Erros: 0</div>
+      <div class="card-res brancas" id="res-brancas">Em Branco: 0</div>
+    </div>
+
+    <!-- Caixa com Lista de Respostas para Compartilhar -->
+    <div class="compartilhar-box">
+      <h3>📋 Seu Gabarito Marcado:</h3>
+      <textarea id="lista-respostas-txt" class="textarea-gabarito" readonly></textarea>
+      <button class="btn-copiar" id="btn-copiar" onclick="copiarRespostas()">Copiar Lista de Respostas</button>
+    </div>
+  </div>
+
+  <!-- Lista de Questões -->
+  <div id="lista-questoes">
+    <div class="loading">Carregando todas as questões...</div>
+  </div>
+</div>
+
+<!-- Barra Flutuante de Ação -->
+<div class="footer-actions">
+  <button class="btn-finalizar" id="btn-finalizar" onclick="finalizarSimulado()">Finalizar Simulado</button>
+</div>
+
+<script src="script-simulado.js"></script>
+</body>
+</html>

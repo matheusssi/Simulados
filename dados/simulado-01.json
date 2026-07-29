@@ -1,0 +1,849 @@
+[
+  {
+    "id": "pmal-2026",
+    "titulo": "SIMULADO DE ELITE PM AL",
+    "subtitulo": "120 ITENS - PADRÃO CEBRASPE (CERTO / ERRADO)",
+    "questoes": [
+      {
+        "id": 1,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": "Texto I (Adaptado do 'Manual de Redação da Presidência da República')\nA clareza deve ser a qualidade básica de todo texto oficial. Pode-se definir como claro aquele texto que possibilita a imediata compreensão pelo leitor. No entanto, a clareza não é algo que se alcance por si só: ela depende estritamente da correção gramatical, da concisão e do uso do padrão culto da linguagem.",
+        "enunciado": "1. No trecho 'Pode-se definir como claro aquele texto', o pronome 'se' atua como partícula apassivadora, sendo a oração 'aquele texto que possibilita a imediata compreensão pelo leitor' o sujeito paciente da forma verbal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 2,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "2. A substituição da conjunção 'No entanto' por 'Porquanto' manteria inalterados a correção gramatical e o sentido original do período.",
+        "gabarito": "E"
+      },
+      {
+        "id": 3,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "3. No segmento 'ela depende estritamente da correção gramatical', a inserção de um sinal indicativo de crase em 'a correção' manteria a correção gramatical do texto.",
+        "gabarito": "E"
+      },
+      {
+        "id": 4,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "4. O vocábulo 'qualidade' funciona como núcleo do sujeito da oração 'A clareza deve ser a qualidade básica de todo texto oficial'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 5,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "5. A palavra 'estritamente' é formada por derivação sufixal e funciona, no texto, como adjunto adverbial de modo.",
+        "gabarito": "C"
+      },
+      {
+        "id": 6,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": "Texto II\nA atuação das forças de segurança pública exige preparo físico, técnico e ético. O policial militar, no exercício de suas funções, representa o próprio Estado, devendo pautar suas condutas pelos princípios fundamentais da administração pública.",
+        "enunciado": "6. Infere-se do Texto II que a ética do policial militar é um elemento secundário frente ao preparo técnico exigido para o patrulhamento ostensivo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 7,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "7. A palavra 'exercício' recebe acento gráfico em razão da mesma regra de acentuação que justifica o uso do acento na palavra 'públicas'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 8,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "8. Seria mantida a correção gramatical do texto se o termo 'pautar' fosse substituído por 'pautarem', visto que o sujeito do verbo é composto.",
+        "gabarito": "E"
+      },
+      {
+        "id": 9,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "9. O trecho 'no exercício de suas funções' possui valor adverbial e indica uma circunstância de tempo.",
+        "gabarito": "C"
+      },
+      {
+        "id": 10,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "10. No trecho 'devendo pautar suas condutas', o termo 'suas condutas' exerce a função sintática de objeto direto.",
+        "gabarito": "C"
+      },
+      {
+        "id": 11,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "11. Em 'representa o próprio Estado', a palavra 'próprio' enfatiza o papel institucional do agente público.",
+        "gabarito": "E"
+      },
+      {
+        "id": 12,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "12. As palavras 'visão', 'caráter' e 'hífen' seguem rigorosamente a mesma regra de acentuação gráfica.",
+        "gabarito": "E"
+      },
+      {
+        "id": 13,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "13. O uso das vírgulas em 'preparo físico, técnico e ético' justifica-se pela separação de elementos de mesma função sintática.",
+        "gabarito": "C"
+      },
+      {
+        "id": 14,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "14. A forma verbal 'exige' concorda em número e pessoa com o núcleo do sujeito 'atuação'.",
+        "gabarito": "C"
+      },
+      {
+        "id": 15,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "15. A reescrita 'Exige-se das forças de segurança preparo físico' manteria a correção e a coerência do texto.",
+        "gabarito": "E"
+      },
+      {
+        "id": 16,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "16. A palavra 'segurança' é acentuada graficamente por ser uma paroxítona terminada em ditongo crescente.",
+        "gabarito": "E"
+      },
+      {
+        "id": 17,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "17. A expressão 'segurança pública' constitui um complemento nominal na oração.",
+        "gabarito": "E"
+      },
+      {
+        "id": 18,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "18. O emprego do hífen em 'segurança-pública' é obrigatório de acordo com o Novo Acordo Ortográfico.",
+        "gabarito": "E"
+      },
+      {
+        "id": 19,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "19. Caso a expressão 'públicas' fosse alterada para o singular, a alteração gramatical no restante do período seria facultativa.",
+        "gabarito": "E"
+      },
+      {
+        "id": 20,
+        "materia": "LÍNGUA PORTUGUESA (1 a 20)",
+        "texto": null,
+        "enunciado": "20. A palavra 'ético' é proparoxítona e, segundo as regras ortográficas vigentes, todas as proparoxítonas são acentuadas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 21,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "21. No sistema operacional Windows 11, o recurso 'Visão de Tarefas' (Task View) permite ao usuário criar e alternar entre múltiplas áreas de trabalho virtuais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 22,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "22. O protocolo HTTPS utiliza por padrão a porta 80 para garantir a comunicação criptografada na Web.",
+        "gabarito": "E"
+      },
+      {
+        "id": 23,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "23. O ransomware é um tipo de código malicioso que sequestra os dados do usuário por meio de criptografia e exige um resgate para restabelecer o acesso.",
+        "gabarito": "C"
+      },
+      {
+        "id": 24,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "24. No Microsoft Excel, a função =CONT.SE(A1:A10; \">10\") conta o número de células no intervalo A1:A10 que contêm valores estritamente maiores que 10.",
+        "gabarito": "C"
+      },
+      {
+        "id": 25,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "25. O ataque de phishing visa obter informações confidenciais, como senhas e dados bancários, utilizando mensagens enganosas que se passam por instituições legítimas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 26,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "26. No Linux, o comando 'chmod 777 arquivo.txt' concede permissões de leitura, escrita e execução apenas ao proprietário do arquivo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 27,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "27. Memórias do tipo RAM são não voláteis, o que significa que seus dados permanecem armazenados mesmo após o desligamento do computador.",
+        "gabarito": "E"
+      },
+      {
+        "id": 28,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "28. O protocolo SMTP é responsável pelo recebimento de mensagens de e-mail na caixa de entrada do cliente final.",
+        "gabarito": "E"
+      },
+      {
+        "id": 29,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "29. Uma VPN (Virtual Private Network) cria um túnel criptografado para o tráfego de dados, protegendo a navegação do usuário em redes públicas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 30,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "30. A computação em nuvem no modelo PaaS (Platform as a Service) fornece ao usuário final o software pronto para uso, como um serviço de webmail.",
+        "gabarito": "E"
+      },
+      {
+        "id": 31,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "31. O firewall de rede é projetado para impedir infecções por vírus em arquivos baixados via pendrive sem análise prévia.",
+        "gabarito": "E"
+      },
+      {
+        "id": 32,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "32. No Google Chrome, o atalho Ctrl + Shift + N abre uma nova janela em modo de navegação anônima.",
+        "gabarito": "C"
+      },
+      {
+        "id": 33,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "33. A assinatura digital garante a autenticidade, a integridade e o não repúdio de um documento eletrônico.",
+        "gabarito": "C"
+      },
+      {
+        "id": 34,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "34. O protocolo IP é responsável pelo roteamento de pacotes na camada de rede do modelo TCP/IP.",
+        "gabarito": "C"
+      },
+      {
+        "id": 35,
+        "materia": "NOCÕES DE INFORMÁTICA (21 a 35)",
+        "texto": null,
+        "enunciado": "35. A topologia em estrela caracteriza-se por conectar todos os dispositivos a um único cabo central compartilhado (barramento).",
+        "gabarito": "E"
+      },
+      {
+        "id": 36,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "36. A negação da proposição 'Todo policial militar é preparado' é dada logicamente por 'Nenhum policial militar é preparado'.",
+        "gabarito": "E"
+      },
+      {
+        "id": 37,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "37. A proposição composta 'P e Q' é verdadeira se, e somente se, ambas as proposições P e Q forem verdadeiras.",
+        "gabarito": "C"
+      },
+      {
+        "id": 38,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "38. Se a razão entre o número de policiais do sexo masculino e do sexo feminino em uma corporação é 4/1 e o total é de 250 policiais, então há 50 policiais do sexo feminino.",
+        "gabarito": "C"
+      },
+      {
+        "id": 39,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "39. Uma viatura percorreu um trajeto a 80 km/h em 3 horas. Se a velocidade fosse de 100 km/h, o tempo gasto para o mesmo trajeto seria de 2,4 horas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 40,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "40. A negação da condicional 'Se o alarme tocar, a equipe será acionada' é equivalente a 'O alarme toca e a equipe não é acionada'.",
+        "gabarito": "C"
+      },
+      {
+        "id": 41,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "41. Um aumento sucessivo de 10% seguido de outro aumento de 20% equivale a um único aumento de 30%.",
+        "gabarito": "E"
+      },
+      {
+        "id": 42,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "42. Se P é verdadeira e Q é falsa, o valor lógico da condicional 'P -> Q' é verdadeiro.",
+        "gabarito": "E"
+      },
+      {
+        "id": 43,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "43. Em um grupo de 100 policiais, 60 fazem patrulhamento a pé, 50 fazem patrulhamento motorizado e 20 fazem ambos. O número de policiais que não faz nenhum dos dois é 10.",
+        "gabarito": "C"
+      },
+      {
+        "id": 44,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "44. A contrapositiva da proposição 'Se cometeu o crime, então será preso' é 'Se não foi preso, então não cometeu o crime'.",
+        "gabarito": "C"
+      },
+      {
+        "id": 45,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "45. O número de maneiras distintas de organizar 5 policiais em uma fila indiana é igual a 120.",
+        "gabarito": "C"
+      },
+      {
+        "id": 46,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "46. A probabilidade de obter um número par no lançamento de um dado não viciado de 6 faces é de 50%.",
+        "gabarito": "C"
+      },
+      {
+        "id": 47,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "47. Se um capital de R$ 1.000,00 for aplicado a juros simples de 2% ao mês durante 5 meses, o montante final será R$ 1.100,00.",
+        "gabarito": "C"
+      },
+      {
+        "id": 48,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "48. A tabela-verdade de uma tautologia possui pelo menos uma valoração falsa.",
+        "gabarito": "E"
+      },
+      {
+        "id": 49,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "49. O número de comissões de 3 policiais que podem ser formadas a partir de um grupo de 6 policiais é igual a 20.",
+        "gabarito": "C"
+      },
+      {
+        "id": 50,
+        "materia": "MATEMÁTICA E RACIOCÍNIO LÓGICO (36 a 50)",
+        "texto": null,
+        "enunciado": "50. A negação de 'Maria é alta ou João é baixo' é 'Maria não é alta e João não é baixo'.",
+        "gabarito": "C"
+      },
+      {
+        "id": 51,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "51. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
+        "gabarito": "C"
+      },
+      {
+        "id": 52,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "52. É livre a manifestação do pensamento, sendo contudo assegurado o anônimato nas manifestações de cunho político e social.",
+        "gabarito": "E"
+      },
+      {
+        "id": 53,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "53. As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército, subordinam-se aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+        "gabarito": "C"
+      },
+      {
+        "id": 54,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "54. Nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
+        "gabarito": "C"
+      },
+      {
+        "id": 55,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "55. É vedada a criação de associações de caráter paramilitar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 56,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "56. A lei penal não retroagirá, salvo para beneficiar o réu.",
+        "gabarito": "C"
+      },
+      {
+        "id": 57,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "57. A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada.",
+        "gabarito": "C"
+      },
+      {
+        "id": 58,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "58. Os Direitos e Garantias Fundamentais dispostos na Constituição Federal de 1988 constituem rol taxativo, não admitindo outros direitos decorrentes de tratados internacionais.",
+        "gabarito": "E"
+      },
+      {
+        "id": 59,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "59. O alistamento eleitoral e o voto são facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito anos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 60,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "60. Compete privativamente à União legislar sobre direito penal e processual penal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 61,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "61. Às polícias civis cabem a polícia ostensiva e a preservação da ordem pública.",
+        "gabarito": "E"
+      },
+      {
+        "id": 62,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "62. O militar em atividade pode estar filiado a partidos políticos, desde que em dia com suas obrigações sindicais.",
+        "gabarito": "E"
+      },
+      {
+        "id": 63,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "63. O direito à vida, garantido na CF/88, possui caráter absoluto, não admitindo qualquer tipo de mitigação no ordenamento jurídico brasileiro.",
+        "gabarito": "E"
+      },
+      {
+        "id": 64,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "64. A propriedade atenderá a sua função social.",
+        "gabarito": "C"
+      },
+      {
+        "id": 65,
+        "materia": "DIREITO CONSTITUCIONAL (51 a 65)",
+        "texto": null,
+        "enunciado": "65. O mandato de segurança coletivo pode ser impetrado por partido político registrado no Tribunal Superior Eleitoral, ainda que sem representação no Congresso Nacional.",
+        "gabarito": "E"
+      },
+      {
+        "id": 66,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "66. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado (teoria da atividade).",
+        "gabarito": "C"
+      },
+      {
+        "id": 67,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "67. Fato típico, ilícito e culpável constituem os elementos do conceito analítico de crime consagrado pela doutrina majoritária.",
+        "gabarito": "C"
+      },
+      {
+        "id": 68,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "68. O estado de necessidade e a legítima defesa constituem causas excludentes de culpabilidade.",
+        "gabarito": "E"
+      },
+      {
+        "id": 69,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "69. A legítima defesa putativa ocorre quando o agente descobre, após o fato, que a agressão sofrida era inteiramente legítima.",
+        "gabarito": "E"
+      },
+      {
+        "id": 70,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "70. No crime impossível, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é punível a tentativa com pena reduzida.",
+        "gabarito": "E"
+      },
+      {
+        "id": 71,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "71. O inquérito policial é um procedimento administrativo informativo, inquisitorial e sigiloso, que visa apurar a autoria e a materialidade da infração penal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 72,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "72. A ação penal pública incondicionada independe de representação da vítima ou de seu representante legal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 73,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "73. Qualquer do povo poderá e as autoridades policiais e seus agentes deverão prender quem quer que seja encontrado em flagrante delito.",
+        "gabarito": "C"
+      },
+      {
+        "id": 74,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "74. O flagrante impróprio ocorre quando o agente é perseguido, logo após o fato, em situação que faça presumir ser ele o autor da infração.",
+        "gabarito": "C"
+      },
+      {
+        "id": 75,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "75. A prisão preventiva pode ser decretada pelo Juiz de ofício durante o inquérito policial.",
+        "gabarito": "E"
+      },
+      {
+        "id": 76,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "76. Diz-se o crime consumado quando nele se reúnem todos os elementos de sua definição legal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 77,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "77. Diz-se o crime tentado quando, iniciada a execução, este não se consuma por circunstâncias alheias à vontade do agente.",
+        "gabarito": "C"
+      },
+      {
+        "id": 78,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "78. O arrependimento eficaz ocorre quando o agente, voluntariamente, impede que o resultado se produza antes da consumação do crime.",
+        "gabarito": "C"
+      },
+      {
+        "id": 79,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "79. A coação moral irresistível exclui a ilicitude da conduta.",
+        "gabarito": "E"
+      },
+      {
+        "id": 80,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "80. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.",
+        "gabarito": "C"
+      },
+      {
+        "id": 81,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "81. O inquérito policial é indispensável para o oferecimento da denúncia pelo Ministério Público.",
+        "gabarito": "E"
+      },
+      {
+        "id": 82,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "82. As provas obtidas por meios ilícitos são inadmissíveis no processo, salvo se beneficiarem a defesa do réu.",
+        "gabarito": "E"
+      },
+      {
+        "id": 83,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "83. O vício no inquérito policial anula a ação penal subsequente.",
+        "gabarito": "E"
+      },
+      {
+        "id": 84,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "84. Na busca pessoal, independe de mandado judicial a fundada suspeita de que a pessoa esteja na posse de arma proibida.",
+        "gabarito": "C"
+      },
+      {
+        "id": 85,
+        "materia": "DIREITO PENAL E PROCESSUAL PENAL (66 a 85)",
+        "texto": null,
+        "enunciado": "85. A prisão temporária pode ser decretada pela autoridade policial em casos de extrema urgência sem prévia ordem judicial.",
+        "gabarito": "E"
+      },
+      {
+        "id": 86,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "86. Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência são princípios expressos da Administração Pública no art. 37 da Constituição Federal.",
+        "gabarito": "C"
+      },
+      {
+        "id": 87,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "87. O poder de polícia administrativo é delegado ilimitadamente a empresas privadas do setor comercial.",
+        "gabarito": "E"
+      },
+      {
+        "id": 88,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "88. A revogação do ato administrativo fundamenta-se em razões de oportunidade e conveniência, respeitados os direitos adquiridos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 89,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "89. A anulação do ato administrativo ocorre por razões de ilegalidade e produz efeitos ex tunc.",
+        "gabarito": "C"
+      },
+      {
+        "id": 90,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "90. O atributo da autoexecutoriedade permite que a Administração Pública execute diretamente suas decisões sem a necessidade de prévia intervenção do Poder Judiciário.",
+        "gabarito": "C"
+      },
+      {
+        "id": 91,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "91. O abuso de poder pode se manifestar nas modalidades de excesso de poder (vício de competência) e desvio de finalidade (vício de finalidade).",
+        "gabarito": "C"
+      },
+      {
+        "id": 92,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "92. A responsabilidade civil do Estado por atos comissivos de seus agentes é objetiva, baseada na teoria do risco administrativo.",
+        "gabarito": "C"
+      },
+      {
+        "id": 93,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "93. A descentralização administrativa ocorre quando o Estado cria entidades com personalidade jurídica própria, como autarquias e fundações públicas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 94,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "94. Os atos administrativos gozam de presunção absoluta (jure et de jure) de veracidade e legitimidade.",
+        "gabarito": "E"
+      },
+      {
+        "id": 95,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "95. O poder hierárquico autoriza a chefia administrativa a dar ordens, fiscalizar, delegar e avocar competências, nos limites da lei.",
+        "gabarito": "C"
+      },
+      {
+        "id": 96,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "96. O servidor público está obrigado a cumprir ordens superiores, mesmo quando manifestamente ilegais.",
+        "gabarito": "E"
+      },
+      {
+        "id": 97,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "97. A imperatividade é o atributo do ato administrativo pelo qual ele se impõe a terceiros independentemente da sua concordância.",
+        "gabarito": "C"
+      },
+      {
+        "id": 98,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "98. A convalidação é a eliminação de vício insanável contido em ato administrativo nulo.",
+        "gabarito": "E"
+      },
+      {
+        "id": 99,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "99. A responsabilidade objetiva do Estado afasta a possibilidade de ação regressiva contra o agente público causador do dano.",
+        "gabarito": "E"
+      },
+      {
+        "id": 100,
+        "materia": "DIREITO ADMINISTRATIVO (86 a 100)",
+        "texto": null,
+        "enunciado": "100. A ilicitude do ato é pressuposto indispensável para a caracterização da responsabilidade civil do Estado.",
+        "gabarito": "E"
+      },
+      {
+        "id": 101,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "101. Segundo a Declaração Universal dos Direitos Humanos, todas as pessoas nascem livres e iguais em dignidade e direitos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 102,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "102. A Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica) veda expressamente a pena de morte em qualquer circunstância, sem exceções.",
+        "gabarito": "E"
+      },
+      {
+        "id": 103,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "103. Os direitos humanos são caracterizados pela imprescritibilidade, inalienabilidade, irrenunciabilidade e universalidade.",
+        "gabarito": "C"
+      },
+      {
+        "id": 104,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "104. Conforme o Estatuto dos Policiais Militares de Alagoas, a hierarquia e a disciplina são as bases institucionais da Polícia Militar.",
+        "gabarito": "C"
+      },
+      {
+        "id": 105,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "105. O uso da força por agentes de segurança pública deve observar os princípios da legalidade, necessidade, proporcionalidade e conveniência.",
+        "gabarito": "C"
+      },
+      {
+        "id": 106,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "106. A Convenção contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes veda a tortura, exceto em estado de guerra.",
+        "gabarito": "E"
+      },
+      {
+        "id": 107,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "107. O crime de tortura é inafiançável e insuscetível de graça ou anistia.",
+        "gabarito": "C"
+      },
+      {
+        "id": 108,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "108. Os Direitos Humanos de Primeira Geração enfatizam os direitos sociais, econômicos e culturais.",
+        "gabarito": "E"
+      },
+      {
+        "id": 109,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "109. O abuso de autoridade submete o agente público a sanções administrativas, civis e penais.",
+        "gabarito": "C"
+      },
+      {
+        "id": 110,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "110. Segundo a Lei de Abuso de Autoridade (Lei nº 13.869/2019), a divergência na interpretação de lei ou na avaliação de fatos e provas constitui abuso de autoridade.",
+        "gabarito": "E"
+      },
+      {
+        "id": 111,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "111. A dignidade da pessoa humana é um dos fundamentos da República Federativa do Brasil expressos no art. 1º da CF/88.",
+        "gabarito": "C"
+      },
+      {
+        "id": 112,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "112. O Estatuto da Criança e do Adolescente (ECA) considera criança a pessoa de até doze anos de idade incompletos.",
+        "gabarito": "C"
+      },
+      {
+        "id": 113,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "113. A apreensão de adolescente em flagrante de ato infracional exige a imediata comunicação à autoridade judiciária competente.",
+        "gabarito": "C"
+      },
+      {
+        "id": 114,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "114. A Lei Maria da Penha (Lei nº 11.340/2006) aplica-se a crimes praticados contra mulheres no âmbito da unidade doméstica, da família ou em qualquer relação íntima de afeto.",
+        "gabarito": "C"
+      },
+      {
+        "id": 115,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "115. A violência psicológica contra a mulher é uma das formas de violência doméstica previstas na Lei Maria da Penha.",
+        "gabarito": "C"
+      },
+      {
+        "id": 116,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "116. Conforme o Código Penal Militar, considera-se crime militar o praticado por militar em serviço contra civil.",
+        "gabarito": "E"
+      },
+      {
+        "id": 117,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "117. A ordem de superior hierárquico isenta de pena o subordinado, mesmo se manifestamente criminosa.",
+        "gabarito": "E"
+      },
+      {
+        "id": 118,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "118. O assédio moral e o racismo são condutas expressamente combatidas no âmbito das instituições de segurança pública.",
+        "gabarito": "C"
+      },
+      {
+        "id": 119,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "119. A Polícia Militar de Alagoas integra a administração direta do Estado de Alagoas.",
+        "gabarito": "C"
+      },
+      {
+        "id": 120,
+        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA (101 a 120)",
+        "texto": null,
+        "enunciado": "120. As regras mínimas das Nações Unidas para o tratamento de presos (Regras de Mandela) proibem rigorosamente qualquer forma de tortura ou castigo corporal.",
+        "gabarito": "C"
+      }
+    ]
+  }
+]
