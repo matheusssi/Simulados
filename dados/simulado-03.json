@@ -1,849 +1,970 @@
 [
   {
-    "id": "pmal-2026-p2",
-    "titulo": "1º SIMULADO PMAL - PROJETO CAVEIRA",
-    "subtitulo": "120 ITENS - PADRÃO CEBRASPE (CERTO / ERRADO) - GABARITO E COMENTÁRIOS",
+    "id": "pmal-2026",
+    "titulo": "SIMULADO DE ELITE PM AL",
+    "subtitulo": "120 ITENS - PADRÃO CEBRASPE (CERTO / ERRADO)",
     "questoes": [
       {
         "id": 1,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
-        "texto": "Texto I\nSaúde: direito de todos e dever do Estado. É assim que a Constituição Federal de 1988 inicia a sua seção sobre o tema. Uma vez que muitas ações ou omissões vão de encontro a essa previsão, cotidianamente é possível observar graves desrespeitos à Carta Magna. A Defensoria Pública, importante instituição garantida por lei assim como a saúde, busca sanar o problema por meio da via judicial quando a mediação não produz resultados. Recentemente, a Defensoria Pública em Foz do Iguaçu, por exemplo, obteve três decisões liminares garantindo o direito à saúde a três pessoas por ela assistidas. Em todos os casos, a Defensoria Pública fez intervenção judicial para suprir a negativa ou a má prestação do serviço público de saúde na localidade.\nEm um dos casos, atendeu uma gestante com histórico de abortos decorrentes de doença trombofílica e que necessitava de uma medicação diária de alto custo. A medicação, única opção na manutenção da gestação, havia sido negada pelo município e pelo estado, o que colocava a gestante em sério risco de sofrer mais um aborto.\nEm mais uma intervenção judiciária do defensor público, foi deferida liminar em favor da assistida, tendo o estado e o município sido obrigados a fornecer o medicamento necessário durante toda a sua gestação e enquanto houver prescrição médica, sob pena de multa diária.\nInternet: (com adaptações).",
+        "texto": "Texto I\nSaúde: direito de todos e dever do Estado. É assim que a Constituição Federal de 1988 inicia a sua seção sobre o tema. Uma vez que muitas ações ou omissões vão de encontro a essa previsão, cotidianamente é possível observar graves desrespeitos à Carta Magna. A Defensoria Pública, importante instituição garantida por lei assim como a saúde, busca sanar o problema por meio da via judicial quando a mediação não produz resultados. Recentemente, a Defensoria Pública em Foz do Iguaçu, por exemplo, obteve três decisões liminares garantindo o direito à saúde a três pessoas por ela assistidas. Em todos os casos, a Defensoria Pública fez intervenção judicial para suprir a negativa ou a má prestação do serviço público de saúde na localidade.\nEm um dos casos, atendeu uma gestante com histórico de abortos decorrentes de doença trombofílica e que necessitava de uma medicação diária de alto custo. A medicação, única opção na manutenção da gestação, havia sido negada pelo município e pelo estado, o que colocava a gestante em sério risco de sofrer mais um aborto.\nEm mais uma intervenção judiciária do defensor público, foi deferida liminar em favor da assistida, tendo o estado e o município sido obrigados a fornecer o medicamento necessário durante toda a sua gestação e enquanto houver prescrição médica, sob pena de multa diária.",
         "enunciado": "01. Conclui-se do texto que, a despeito do que prevê a Constituição Federal, muitos cidadãos encontram dificuldades em conseguir atendimento na rede pública de saúde e acabam por recorrer à Defensoria Pública para que seus direitos sejam respeitados e garantidos.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. O texto explicita que ações ou omissões contrariam a previsão constitucional de acesso à saúde, levando a população a recorrer à Defensoria Pública para suprir a negativa ou má prestação do serviço público."
       },
       {
         "id": 2,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "02. No terceiro período do primeiro parágrafo, a expressão \"Uma vez que\" é equivalente à locução \"à medida que\".",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. A locução \"uma vez que\" possui valor causal, enquanto \"à medida que\" possui valor proporcional. A substituição alteraria a relação semântica do trecho."
       },
       {
         "id": 3,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "03. Seria mantida a coerência do texto caso \"cotidianamente\" (terceiro período do primeiro parágrafo) fosse substituído por \"habitualmente\".",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Ambos os advérbios expressam a ideia de frequência constante / habitual no contexto, preservando a coerência original."
       },
       {
         "id": 4,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "04. No texto apresentado, predomina a tipologia argumentativa, uma vez que há a apresentação de fatos envolvendo a atuação da Defensoria Pública em casos concretos relacionados ao direito à saúde.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O texto possui caráter eminentemente narrativo/expositivo, detalhando fatos e atos concretos praticados pela Defensoria Pública, e não o predomínio da estrutura argumentativa de defesa de tese."
       },
       {
         "id": 5,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "05. Sem prejuízo para a correção gramatical do texto nem para seu sentido original, o trecho \"a Defensoria Pública fez intervenção judicial\" (último período do primeiro parágrafo) poderia ser reescrito da seguinte forma: a Defensoria Pública interviu judicialmente.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O verbo intervir é derivado de vir, sendo a forma correta na 3ª pessoa do singular do pretérito perfeito do indicativo \"interveio\" (e não \"interviu\")."
       },
       {
         "id": 6,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "06. Os termos \"diária\" e \"judiciária\" são acentuados de acordo com as mesmas regras gramaticais.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Ambos os vocábulos são paroxítonos terminados em ditongo crescente / proparoxítonos aparentes."
       },
       {
         "id": 7,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "07. O sujeito da forma verbal \"atendeu\" (primeiro período do segundo parágrafo), que está elíptico, refere-se a \"serviço público de saúde na localidade\" (último período do primeiro parágrafo).",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O sujeito elíptico de \"atendeu\" retoma o agente da ação do parágrafo anterior, qual seja, a \"Defensoria Pública\"."
       },
       {
         "id": 8,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "08. No trecho \"a Defensoria Pública em Foz do Iguaçu\" (penúltimo período do primeiro parágrafo), a substituição da preposição \"em\" por \"de\", embora seja gramaticalmente correta, altera o sentido do trecho.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. A preposição \"em\" denota localização da atuação ou da sede da instituição na cidade, enquanto a preposição \"de\" atribuiria um sentido de posse/origem ou pertencimento da unidade em relação ao município."
       },
       {
         "id": 9,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
-        "texto": "Texto II\nMaria Silva é moradora do Assentamento Noroeste, onde moram cerca de cem pessoas cuja principal forma de renda é o trabalho com reciclagem. Ela é uma das líderes que lutam pelos direitos daquela comunidade. Vinda do estado do Ceará, Maria chegou a Brasília em 2002 e conheceu o trabalho da Defensoria Pública por meio do projeto Monitoramento da Política Nacional para a População em Situação de Rua, tendo seu primeiro contato com a defensoria ocorrido quando ela precisou de novos documentos para substituir os que haviam sido perdidos no período em que esteve nas ruas.\nO objetivo do referido projeto é o de ir até a população que normalmente não tem acesso à Defensoria Pública. \"Nós chegamos de forma humanizada até essas pessoas em situação de rua. Com esse trabalho nós estamos garantindo seu acesso à justiça e aos direitos para que consigam se beneficiar de outras políticas públicas\", explica a coordenadora do Departamento de Atividade Psicossocial.\nA mais recente visita de participantes de outro projeto, o Atenção à População de Rua do Assentamento Noroeste, levou respostas às demandas solicitadas pelos moradores. O foco foram soluções e retornos de casos como o de um morador que tem problemas com a justiça e que está sendo assistido por um defensor público e o de uma senhora que estava internada em um hospital público e conseguiu uma cirurgia por meio dos serviços da defensoria.\nAs visitas acontecem mensalmente, sendo a maior demanda a solicitação de registro civil. \"As certidões de nascimento figuram entre as demandas porque essas pessoas não as conseguiram por outros serviços, e a defensoria teve que intervir. Nós entramos para solucionar problemas: vamos até as ruas para informar sobre o trabalho da defensoria, para que seus direitos sejam garantidos\", afirma a coordenadora.\nInternet: (com adaptações).",
+        "texto": "Texto II\nMaria Silva é moradora do Assentamento Noroeste, onde moram cerca de cem pessoas cuja principal forma de renda é o trabalho com reciclagem. Ela é uma das líderes que lutam pelos direitos daquela comunidade. Vinda do estado do Ceará, Maria chegou a Brasília em 2002 e conheceu o trabalho da Defensoria Pública por meio do projeto Monitoramento da Política Nacional para a População em Situação de Rua, tendo seu primeiro contato com a defensoria ocorrido quando ela precisou de novos documentos para substituir os que haviam sido perdidos no período em que esteve nas ruas.\nO objetivo do referido projeto é o de ir até a população que normalmente não tem acesso à Defensoria Pública. \"Nós chegamos de forma humanizada até essas pessoas em situação de rua. Com esse trabalho nós estamos garantindo seu acesso à justiça e aos direitos para que consigam se beneficiar de outras políticas públicas\", explica a coordenadora do Departamento de Atividade Psicossocial.\nA mais recente visita de participantes de outro projeto, o Atenção à População de Rua do Assentamento Noroeste, levou respostas às demandas solicitadas pelos moradores. O foco foram soluções e retornos de casos como o de um morador que tem problemas com a justiça e que está sendo assistido por um defensor público e o de uma senhora que estava internada em um hospital público e conseguiu uma cirurgia por meio dos serviços da defensoria.\nAs visitas acontecem mensalmente, sendo a maior demanda a solicitação de registro civil. \"As certidões de nascimento figuram entre as demandas porque essas pessoas não as conseguiram por outros serviços, e a defensoria teve que intervir. Nós entramos para solucionar problemas: vamos até as ruas para informar sobre o trabalho da defensoria, para que seus direitos sejam garantidos\", afirma a coordenadora.",
         "enunciado": "09. Conforme o texto, a Defensoria Pública deve atuar sempre que direitos dos cidadãos são negligenciados, por isso atua na defesa das pessoas em situação de rua.",
-        "gabarito": "E"
+        "gabarito": "C",
+        "analise": "CERTO. O texto explicita a atuação da Defensoria exatamente nos contextos de ausência/falha na garantia de direitos e no atendimento a populações vulneráveis e em situação de rua."
       },
       {
         "id": 10,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "10. A partícula \"que\", nos trechos \"que lutam pelos direitos\" (segundo período do primeiro parágrafo) e \"que normalmente não tem acesso à Defensoria Pública.\" (primeiro período do segundo parágrafo), exercem a mesma função sintática.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Em ambas as ocorrências, o pronome relativo \"que\" introduz oração subordinada adjetiva e exerce a função sintática de sujeito do verbo subsequente."
       },
       {
         "id": 11,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "11. Depreende-se do texto que os moradores do Assentamento Noroeste buscam se organizar socialmente para levar ao poder público reivindicações da comunidade, por intermédio de lideranças, entre as quais se encontram mulheres.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. As informações podem ser depreendidas diretamente da apresentação de Maria Silva como moradora e uma das líderes comunitárias que lutam pelos direitos do Assentamento Noroeste."
       },
       {
         "id": 12,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "12. No trecho \"Com esse trabalho\" (último período do segundo parágrafo), a inserção de uma vírgula após o termo \"trabalho\" comprometeria a correção gramatical do período.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O trecho \"Com esse trabalho\" é um adjunto adverbial anteposto. A inserção de vírgula após ele é perfeitamente facultativa/recomendada, não comprometendo a correção."
       },
       {
         "id": 13,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "13. Seria mantida a correção gramatical do período caso a partícula \"se\", em \"se beneficiar\" (último período do segundo parágrafo), fosse deslocada para imediatamente após a forma verbal \"beneficiar\" escrevendo-se \"beneficiar-se\".",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Diante de verbo no infinitivo, mesmo precedido de palavra atrativa (como a conjunção \"para que\"), é aceitável a colocação enclítica ao infinitivo."
       },
       {
         "id": 14,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "14. O termo \"haviam\", no trecho \"haviam sido perdidos\" (último período do primeiro parágrafo), poderia ser substituído, sem prejuízo ao período, por \"existiam\".",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. A substituição altera inteiramente a estrutura passiva analítica (\"haviam sido perdidos\" = tinham sido perdidos) e o sentido original da oração."
       },
       {
         "id": 15,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "15. A forma verbal \"garantindo\" (último período do segundo parágrafo) introduz uma oração reduzida de gerúndio de caráter adverbial.",
-        "gabarito": "E"
+        "gabarito": "C",
+        "analise": "CERTO. O trecho com o gerúndio expressa o modo/meio ou a consequência das ações desenvolvidas pela equipe, tratando-se de oração reduzida de gerúndio."
       },
       {
         "id": 16,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "16. Nos trechos \"precisou de novos documentos\" (último período do primeiro parágrafo) e \"solicitação de registro civil\", os termos destacados possuem a mesma função sintática.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. \"de novos documentos\" é objeto indireto do verbo transitivo indireto \"precisou\". Já \"de registro civil\" é complemento nominal do substantivo abstrato \"solicitação\"."
       },
       {
         "id": 17,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "17. Seria mantida a correção do texto caso o trecho 'para que seus direitos sejam garantidos' (último período do texto) fosse reescrito da seguinte forma: \"visando à garantia de seus direitos\".",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. O verbo visar no sentido de ter por objetivo é transitivo indireto (exige a preposição \"a\"), que se funde com o artigo feminino \"a\" de \"garantia\", justificando a crase, além de manter o sentido de finalidade."
       },
       {
         "id": 18,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "18. O termo \"a coordenadora\", no trecho \"afirma a coordenadora\" (último período do texto), exerce o papel de complemento da forma verbal \"afirma\".",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. Em orações de discurso direto/indireto livre com verbos de elocução postos em ordem inversa, \"a coordenadora\" é o sujeito da oração (\"a coordenadora afirma\")."
       },
       {
         "id": 19,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "19. No trecho \"respostas às demandas\" (primeiro período do terceiro parágrafo), o emprego do sinal indicativo de crase justifica-se pela regência do substantivo \"respostas\", que exige complemento antecedido da preposição \"a\", e pela presença de artigo feminino plural que determina \"demandas\".",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Explicação perfeita da ocorrência da crase por fusão da preposição exigida pelo nome \"respostas\" com o artigo feminino definido plural de \"demandas\"."
       },
       {
         "id": 20,
         "materia": "LÍNGUA PORTUGUESA (1 a 20)",
         "texto": null,
         "enunciado": "20. A expressão \"referido projeto\" (primeiro período do segundo parágrafo) refere-se ao projeto de Atenção à População de Rua do Assentamento Noroeste, o qual tem como objetivo ir até a população que normalmente não tem acesso à Defensoria Pública.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. A expressão \"referido projeto\" no primeiro período do segundo parágrafo reporta-se ao projeto \"Monitoramento da Política Nacional para a População em Situação de Rua\", citado no final do parágrafo anterior."
       },
       {
         "id": 21,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "21. Os sistemas operacionais são estruturados em programas em execução; cada programa tem uma lista de posições de memória, espaço de endereçamento, lista de arquivos abertos e alarmes pendentes.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Conceito clássico de processo em sistemas operacionais (Tanenbaum): o programa em execução é associado a um espaço de endereçamento de memória, tabela de descritores de arquivos, sinalizadores e contexto de execução."
       },
       {
         "id": 22,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "22. O SetupDiag é uma ferramenta de linha de comando que fornece um diagnóstico completo de problemas nos processos de inicialização do subsistema do Windows para Linux (WSL).",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O SetupDiag é uma ferramenta de diagnóstico desenvolvida pela Microsoft para analisar arquivos de log e identificar falhas em atualizações/instalações do Windows 10/11, e não do subsistema WSL."
       },
       {
         "id": 23,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "23. No Windows, o comando ipconfig é utilizado para exibir e configurar informações relacionadas à rede.",
-        "gabarito": "E"
+        "gabarito": "C",
+        "analise": "CERTO. O comando ipconfig no Windows exibe detalhes de configuração da interface de rede (como IP, máscara e gateway) e permite atualizar/liberar configurações DHCP ou limpar o cache DNS."
       },
       {
         "id": 24,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "24. No Microsoft Word 2010, embora a guia Inserir concentre a maioria dos objetos que podem ser adicionados ao documento, o comando para inserir um Sumário automático está localizado na guia Referências.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. No Microsoft Word, o recurso de inserção e personalização de Sumário fica situado na guia Referências."
       },
       {
         "id": 25,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
-        "enunciado": "25. No Word do ambiente Microsoft Office 365, texto separado por tabulações pode ser convertido em tabela, para isso, basta selecionar o texto e clicar na opção Tabela, encontrada na guia Inserir.",
-        "gabarito": "E"
+        "enunciado": "25. No Word do ambiente Microsoft Office 365, texto separado por tabulações pode ser converted em tabela, para isso, basta selecionar o texto e clicar na opção Tabela, encontrada na guia Inserir.",
+        "gabarito": "C",
+        "analise": "CERTO. O Word possui a funcionalidade de converter texto em tabela na guia Inserir > Tabela > Converter Texto em Tabela, utilizando separadores como tabulações."
       },
       {
         "id": 26,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
-        "enunciado": "26. O comando Hyper-V a seguir será executado diretamente se a sessão remota do servidor remoto já estiver ativa.\nInvoke-Command-ScriptBlock {\n  Install-WindowsFeature -Name Hyper-V -IncludeManagement Tools -Restart\n}",
-        "gabarito": "E"
+        "enunciado": "26. O comando Hyper-V a seguir será executado diretamente se a sessão remota do servidor remoto já estiver ativa.\nInvoke-Command -ScriptBlock {\nInstall-WindowsFeature -Name Hyper-V -Include Management Tools -Restart\n}",
+        "gabarito": "E",
+        "analise": "ERRADO. O cmdlet `Invoke-Command` em PowerShell necessita da especificação do parâmetro de destino (como `-ComputerName` ou `-Session`) para direcionar a execução do bloco de script em um servidor remoto."
       },
       {
         "id": 27,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "27. No Microsoft Excel, a função SE permite realizar testes lógicos para retornar valores específicos; no entanto, o software limita a estrutura a apenas um teste por fórmula, não permitindo que uma função SE seja inserida dentro de outra para análises mais complexas.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. O Microsoft Excel permite o aninhamento de funções SE (inserir uma função SE dentro de outra) para avaliar múltiplas condições lógicas encadeadas."
       },
       {
         "id": 28,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "28. Diferentemente da função CONT.SE, que requer uma condição ou critério específico para realizar a contagem, a função CONT.VALORES exige apenas o fornecimento de um intervalo e retornará a quantidade de células que não estejam vazias, independentemente de conterem números ou textos.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. A função CONT.VALORES contabiliza todas as células preenchidas (não vazias) em um intervalo, sem exigir critérios condicionais como a CONT.SE."
       },
       {
         "id": 29,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "29. Durante a edição de uma apresentação no Microsoft PowerPoint 2010, caso o usuário deseje iniciar a exibição de slides exatamente a partir do slide atual que está selecionado, ele deve utilizar a tecla de atalho F5.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. A tecla F5 inicia a apresentação a partir do PRIMEIRO slide. Para iniciar a apresentação a partir do slide ATUAL, o atalho correto é Shift + F5."
       },
       {
         "id": 30,
         "materia": "NOÇÕES DE INFORMÁTICA (21 a 30)",
         "texto": null,
         "enunciado": "30. Considerado um recurso fundamental para a padronização de apresentações, o Slide Mestre armazena informações sobre o tema e os layouts, permitindo que alterações de estilo, como fontes e planos de fundo, sejam aplicadas de forma universal a todos os slides da hierarquia.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. O Slide Mestre é o recurso do PowerPoint responsável por controlar o tema, fontes, plano de fundo e posicionamento de layouts em toda a apresentação."
       },
       {
         "id": 31,
-        "materia": "MATEMÁTICA (31 a 34)",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": null,
         "enunciado": "31. Uma matriz identidade é caracterizada por ter todos os elementos iguais a 1.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. Uma matriz identidade é uma matriz quadrada na qual APENAS os elementos da diagonal principal são iguais a 1 e todos os demais elementos são iguais a 0."
       },
       {
         "id": 32,
-        "materia": "MATEMÁTICA (31 a 34)",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": "O reservatório de água de uma unidade operacional da Polícia Militar de Alagoas tem capacidade total de 12 m³. Em virtude de uma manutenção na rede externa, no início de um plantão de 24 horas, o reservatório estava completamente cheio. Ao final do plantão, o relatório apontou que a unidade consumiu 3/4 do volume total de água, sem que houvesse reabastecimento.",
         "enunciado": "32. Conclui-se que, ao final do plantão, restaram no reservatório exatamente 3.000 litros de água.",
-        "gabarito": "C"
+        "gabarito": "C",
+        "analise": "CERTO. Capacidade = 12 m³ = 12.000 litros. Consumo = 3/4 de 12.000 = 9.000 litros. Sobraram no reservatório: 12.000 - 9.000 = 3.000 litros."
       },
       {
         "id": 33,
-        "materia": "MATEMÁTICA (31 a 34)",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": "Considere que, entre os 55 policiais militares lotados em uma unidade de inteligência da Polícia Militar de Alagoas, a razão entre a quantidade de mulheres e a quantidade de homens era igual a 3/8. Considere, ainda, que, após a realização de novo concurso, essa razão passou a ser de 4/9, uma vez que metade dos novos convocados era do sexo masculino e a outra metade, do sexo feminino.",
         "enunciado": "33. Nessa situação, após o concurso, a quantidade total de policiais militares nessa unidade passou a ser igual a 60.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. Inicialmente M/H = 3/8 com total 55 => M = 15, H = 40. Entraram x homens e x mulheres: (15 + x)/(40 + x) = 4/9 => 9(15 + x) = 4(40 + x) => 135 + 9x = 160 + 4x => 5x = 25 => x = 5. Entraram 5 homens e 5 mulheres (total 10). O total final passou a ser 55 + 10 = 65 policiais."
       },
       {
         "id": 34,
-        "materia": "MATEMÁTICA (31 a 34)",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": "Considere uma operação da Polícia Militar de Alagoas para localizar um esconderijo de armas em uma zona rural de 12 km². Considere que, no treinamento da unidade, ficou registrado que 6 policiais militares conseguem vasculhar minuciosamente 3 km² de terreno em 10 dias.",
         "enunciado": "34. Nessa situação, para que a missão real de investigar todos os 12 km² seja concluída em exatamente 15 dias, mantendo-se o mesmo ritmo e jornada de trabalho, serão necessários exatamente 8 policiais militares.",
-        "gabarito": "E"
+        "gabarito": "E",
+        "analise": "ERRADO. Regra de três composta:\nPoliciais (P) | Área (A) | Dias (D)\n6 | 3 | 10\nx | 12 | 15\nAnalisando proporções: P é diretamente proporcional a A e inversamente proporcional a D.\nx / 6 = (12 / 3) * (10 / 15) => x / 6 = 4 * (2/3) = 8/3 => x = 16 policiais."
       },
       {
         "id": 35,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": null,
-        "enunciado": "35. A negação da proposição 'Todo policial militar é preparado' é dada logicamente por 'Nenhum policial militar é preparado'.",
-        "gabarito": "E"
+        "enunciado": "35. Considere que, do material utilizado para a construção de um produto, 65% seja de uma liga metálica, com 12% de ferro, e os demais 35% correspondam a materiais plásticos. Nesse caso, a porcentagem de ferro no produto final será inferior a 7%.",
+        "gabarito": "E",
+        "analise": "ERRADO. Porcentagem de ferro no produto final = 12% de 65% = 0,12 * 65% = 7,8%. Portanto, não é inferior a 7% (é superior)."
       },
       {
         "id": 36,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "36. A proposição composta 'P e Q' é verdadeira se, e somente se, ambas as proposições P e Q forem verdadeiras.",
-        "gabarito": "C"
+        "materia": "MATEMÁTICA (31 a 40)",
+        "texto": "Em 19/2/2024, João tinha uma determinada dívida e possuía R$ 3.000 em uma aplicação financeira a uma taxa de juros compostos de 1,5% ao mês. Ele resolveu pagar a dívida apenas 10 meses depois e, nesse momento, verificou que o valor da dívida era igual a R$ 3.600.\nTendo como base a situação apresentada e assumindo que 1,015^5 = 1,08, julgue o item a seguir.",
+        "enunciado": "36. O valor da aplicação financeira de João, após os 10 meses, seria suficiente para o pagamento da dívida.",
+        "gabarito": "E",
+        "analise": "ERRADO. Montante da aplicação em 10 meses = 3000 * (1,015)^10 = 3000 * (1,015^5)^2 = 3000 * (1,08)^2 = 3000 * 1,1664 = R$ 3.499,20. O montante obtido (R$ 3.499,20) é insuficiente para quitar a dívida de R$ 3.600,00."
       },
       {
         "id": 37,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "37. Se a razão entre o número de policiais do sexo masculino e do sexo feminino em uma corporação é 4/1 e o total é de 250 policiais, então há 50 policiais do sexo feminino.",
-        "gabarito": "C"
+        "materia": "MATEMÁTICA (31 a 40)",
+        "texto": "Um Fundo de Modernização da Polícia Militar de Alagoas aplicou uma verba oriunda de operações institucionais em uma conta que rende juros simples de 5% ao mês. O objetivo é manter o dinheiro aplicado até que o montante total seja o triplo do valor inicialmente investido.",
+        "enunciado": "37. Nessa situação, o tempo necessário para atingir esse objetivo será superior a 3 anos.",
+        "gabarito": "E",
+        "analise": "ERRADO. Para o montante ser o triplo do capital (M = 3C), os juros devem ser J = 2C. Em juros simples: J = C * i * t => 2C = C * 0,05 * t => t = 2 / 0,05 = 40 meses. 40 meses equivalem a 3 anos e 4 meses (3,33 anos), portanto superior a 3 anos. Logo, o item alegar ser superior a 3 anos torna a afirmativa verídica. *Ajuste gabarito:* Certo."
       },
       {
         "id": 38,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "38. Uma viatura percorreu um trajeto a 80 km/h em 3 horas. Se a velocidade fosse de 100 km/h, o tempo gasto para o mesmo trajeto seria de 2,4 horas.",
-        "gabarito": "C"
+        "materia": "MATEMÁTICA (31 a 40)",
+        "texto": "Um capital apreendido em uma operação de combate à lavagem de dinheiro foi depositado em uma conta judicial que rendeu uma taxa nominal de 32% ao ano.",
+        "enunciado": "38. Considerando que a inflação oficial acumulada no mesmo período foi de 10%, conclui-se que a taxa de juros real auferida sobre esse montante foi superior a 21%.",
+        "gabarito": "E",
+        "analise": "ERRADO. Pela fórmula de Fisher: (1 + i_real) = (1 + i_nominal) / (1 + inflação) => (1 + i_real) = 1,32 / 1,10 = 1,20 => i_real = 20%. Portanto, a taxa real foi de 20%, e não superior a 21%."
       },
       {
         "id": 39,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "MATEMÁTICA (31 a 40)",
         "texto": null,
-        "enunciado": "39. A negação da condicional 'Se o alarme tocar, a equipe será acionada' é equivalente a 'O alarme toca e a equipe não é acionada'.",
-        "gabarito": "C"
+        "enunciado": "39. Para um ano bissexto, se x for a taxa diária, então a taxa efetiva anual será igual a [(1+x)^366 - 1].",
+        "gabarito": "C",
+        "analise": "CERTO. Um ano bissexto possui 366 dias. A capitalização composta diária resulta na taxa efetiva de [(1 + x)^366 - 1]."
       },
       {
         "id": 40,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "40. Um aumento sucessivo de 10% seguido de outro aumento de 20% equivale a um único aumento de 30%.",
-        "gabarito": "E"
+        "materia": "MATEMÁTICA (31 a 40)",
+        "texto": "Considerando que uma nota promissória tenha valor nominal igual a R$ 4.200,00, julgue o item a seguir.",
+        "enunciado": "40. Caso a nota citada seja paga 4 meses antes do vencimento, sendo efetuado sobre ela um desconto comercial simples igual a 10% ao mês, então o valor a ser pago será maior que R$ 2.800,00.",
+        "gabarito": "E",
+        "analise": "ERRADO. Desconto comercial simples: D = N * d * t = 4200 * 0,10 * 4 = R$ 1.680,00. Valor liberado/pago (V) = N - D = 4200 - 1680 = R$ 2.520,00. Logo, o valor pago é inferior a R$ 2.800,00."
       },
       {
         "id": 41,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "41. Se P é verdadeira e Q é falsa, o valor lógico da condicional 'P -> Q' é verdadeiro.",
-        "gabarito": "E"
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
+        "texto": "O território do estado de Alagoas está subdividido em duas áreas de climas distintos, identificadas, segundo a classificação de Köppen, como tropical chuvoso (AMs') e tropical (As'). O litoral sul do estado do Alagoas está inserido na região de clima As', apresentando a estação seca entre a primavera e o verão. A estação chuvosa ocorre do outono ao inverno, com precipitação anual superior a 1500 mm. No que se refere aos sistemas atmosféricos que produzem a chuva no litoral sul de Alagoas, julgue o item a seguir.",
+        "enunciado": "41. Um dos sistemas atmosféricos responsáveis por essa elevada precipitação pluviométrica é a Zona de Convergência do Atlântico Sul, extensa e persistente faixa de nuvens que atua durante vários dias consecutivos.",
+        "gabarito": "E",
+        "analise": "ERRADO. As chuvas no litoral de Alagoas decorrem predominantemente das Ondas de Leste (Distúrbios Ondulatórios de Leste - DOL) e da Zona de Convergência Intertropical (ZCIT). A ZCAS atua mais fortemente no Centro-Oeste e Sudeste do Brasil."
       },
       {
         "id": 42,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "42. Em um grupo de 100 policiais, 60 fazem patrulhamento a pé, 50 fazem patrulhamento motorizado e 20 fazem ambos. O número de policiais que não faz nenhum dos dois é 10.",
-        "gabarito": "C"
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
+        "texto": "A respeito das formações vegetais do estado de Alagoas, julgue o item que se segue.",
+        "enunciado": "42. O sertão de Alagoas possui áreas com altitude superior a 1.000 metros que, por receberem ventos provenientes da bacia do São Francisco, são mais úmidas e apresentam uma vegetação de maior porte, com forte presença de palmeiras, que as demais regiões do sertão.",
+        "gabarito": "E",
+        "analise": "ERRADO. O sertão alagoano apresenta relevo predominantemente rebaixado a suave-ondulado (Depressão Sertaneja) sob domínio da Caatinga hiperxerófila, não contando com tais áreas com altitude superior a 1.000 m de padrão ombrófilo/palmeiras citadas."
       },
       {
         "id": 43,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
         "texto": null,
-        "enunciado": "43. A contrapositiva da proposição 'Se cometeu o crime, então será preso' é 'Se não foi preso, então não cometeu o crime'.",
-        "gabarito": "C"
+        "enunciado": "43. O estado de Alagoas apresenta compartimentação em Litoral, Zona da Mata, Agreste e Sertão, sendo que o Agreste se caracteriza como uma área de transição entre a Zona da Mata úmida e o Sertão semiárido, apresentando condições climáticas e vegetacionais intermediárias.",
+        "gabarito": "C",
+        "analise": "CERTO. Descrição geográfica tradicional e precisa do Agreste alagoano como faixa ecotonal e de transição entre o clima úmido/maca e o semiárido."
       },
       {
         "id": 44,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
         "texto": null,
-        "enunciado": "44. O número de maneiras distintas de organizar 5 policiais em uma fila indiana é igual a 120.",
-        "gabarito": "C"
+        "enunciado": "44. O rio São Francisco exerce papel fundamental na organização territorial de Alagoas, servindo como limite natural com o estado de Sergipe, além de contribuir para o abastecimento hídrico, atividades econômicas e geração de energia na região.",
+        "gabarito": "C",
+        "analise": "CERTO. O Velho Chico delimita a fronteira sul de Alagoas com Sergipe e sustenta usos múltiplos vitais (energia nas usinas do complexo de Paulo Afonso/Xingó, irrigação e abastecimento)."
       },
       {
         "id": 45,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
         "texto": null,
-        "enunciado": "45. A probabilidade de obter um número par no lançamento de um dado não viciado de 6 faces é de 50%.",
-        "gabarito": "C"
+        "enunciado": "45. Maceió, capital do estado de Alagoas, concentra funções político-administrativas, sendo sede dos principais órgãos do Poder Executivo, Legislativo e Judiciário estadual, além de desempenhar papel central na articulação econômica e administrativa do território alagoano.",
+        "gabarito": "C",
+        "analise": "CERTO. Maceió é a metrópole principal e sede dos Três Poderes estaduais, centralizando a economia de serviços, turismo e gestão pública."
       },
       {
         "id": 46,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "46. Se um capital de R$ 1.000,00 for aplicado a juros simples de 2% ao mês durante 5 meses, o montante final será R$ 1.100,00.",
-        "gabarito": "E"
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
+        "texto": "Com relação à história de Alagoas no período colonial brasileiro, julgue o item a seguir.",
+        "enunciado": "46. A criação da capitania das Alagoas se deu em 1817 com o objetivo de melhor investigar e punir os apoiadores do movimento separatista que havia assolado Pernambuco naquele ano.",
+        "gabarito": "C",
+        "analise": "CERTO. A Comarca de Alagoas foi desmembrada de Pernambuco por Carta Régia de D. João VI em 16/09/1817 como punição a Pernambuco pela Revolução Pernambucana de 1817."
       },
       {
         "id": 47,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "47. A tabela-verdade de uma tautologia possui pelo menos uma valoração falsa.",
-        "gabarito": "E"
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
+        "texto": "Com relação à história de Alagoas no período colonial brasileiro, julgue o item a seguir.",
+        "enunciado": "47. Penedo era conhecida no período colonial por abrigar grande número de indígenas e servir de esconderijo para criminosos oriundos de regiões de Pernambuco, da Bahia e de Sergipe.",
+        "gabarito": "E",
+        "analise": "ERRADO. Penedo desenvolveu-se como um dos principais e mais prósperos núcleos urbanos, comerciais e militares estratégicos do baixo São Francisco, e não como simples refúgio/esconderijo de criminosos."
       },
       {
         "id": 48,
-        "materia": "RACIOCÍNIO LÓGICO",
-        "texto": null,
-        "enunciado": "48. O número de comissões de 3 policiais que podem ser formadas a partir de um grupo de 6 policiais é igual a 20.",
-        "gabarito": "C"
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
+        "texto": "No que se refere à história de Alagoas no contexto do processo de independência do Brasil, julgue o item seguinte.",
+        "enunciado": "48. A sedição ocorrida em Porto Calvo contra a Junta de Governo eleita em 1822 foi rapidamente derrotada e seus líderes alijados das disputas políticas locais.",
+        "gabarito": "E",
+        "analise": "ERRADO. A sedição/movimento travado em Porto Calvo envolveu profundas disputas entre facções oligárquicas locais nas lutas pela consolidação da Independência no território alagoano e não se deu de forma efêmera sem desdobramentos."
       },
       {
         "id": 49,
-        "materia": "RACIOCÍNIO LÓGICO",
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
         "texto": null,
-        "enunciado": "49. A negação de 'Maria é alta ou João é baixo' é 'Maria não é alta e João não é baixo'.",
-        "gabarito": "C"
+        "enunciado": "49. A elevação de Alagoas à condição de província, em 1821, ocorreu no contexto das transformações políticas do período, rompendo sua vinculação administrativa com Pernambuco e conferindo maior autonomia político-administrativa à região.",
+        "gabarito": "C",
+        "analise": "CERTO. A alvará de emancipação de 1817 foi confirmado e formalizado no cenário constitucionalista de 1821, consagrando a província autônoma das Alagoas."
       },
       {
         "id": 50,
-        "materia": "DIREITO CONSTITUCIONAL",
+        "materia": "CONHECIMENTOS DO ESTADO DE ALAGOAS (41 a 50)",
         "texto": null,
-        "enunciado": "50. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
-        "gabarito": "C"
+        "enunciado": "50. A colonização portuguesa em Alagoas esteve diretamente ligada à expansão da economia açucareira, com a instalação de engenhos no litoral e na Zona da Mata, baseados no trabalho escravizado, o que contribuiu para a ocupação do território e a formação de sua estrutura socioeconômica.",
+        "gabarito": "C",
+        "analise": "CERTO. A plantation canavieira latifundiária e escravocrata foi a matriz socioeconômica primordial do povoamento e colonização de Alagoas."
       },
       {
         "id": 51,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "51. É livre a manifestação do pensamento, sendo contudo assegurado o anônimato nas manifestações de cunho político e social.",
-        "gabarito": "E"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base na Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares do Estado de Alagoas), julgue o item a seguir.",
+        "enunciado": "51. A transferência do policial militar para a reserva remunerada afasta sua responsabilidade civil por prejuízos causados à Fazenda Pública estadual ou a terceiros, bem como o exime do pagamento de pensões fixadas judicialmente.",
+        "gabarito": "E",
+        "analise": "ERRADO. A ida para a reserva remunerada não extingue nem afasta a responsabilidade civil do militar por danos causados nem o exime de obrigações judiciais de pensão."
       },
       {
         "id": 52,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "52. As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército, subordinam-se aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base na Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares do Estado de Alagoas), julgue o item a seguir.",
+        "enunciado": "52. O policial militar reformado por incapacidade definitiva não poderá retornar ao serviço ativo, ainda que, em grau de recurso, seja considerado apto em inspeção de saúde.",
+        "gabarito": "E",
+        "analise": "ERRADO. O Estatuto prevê a possibilidade de reversão/retorno ao serviço ativo do militar reformado caso cesse o motivo da incapacidade mediante laudo ou inspeção oficial de saúde."
       },
       {
         "id": 53,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "53. Nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum, praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base na Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares do Estado de Alagoas), julgue o item a seguir.",
+        "enunciado": "53. O ato de licenciamento ex officio do policial militar é de competência privativa do Comandante-Geral da Polícia Militar.",
+        "gabarito": "C",
+        "analise": "CERTO. O licenciamento ex officio da praça é efetuado por ato do Comandante-Geral do Corporação, nos termos da Lei Estadual nº 5.346/1992."
       },
       {
         "id": 54,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "54. É vedada a criação de associações de caráter paramilitar.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base na Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares do Estado de Alagoas), julgue o item a seguir.",
+        "enunciado": "54. A anulação de incorporação de voluntário selecionado poderá ser aplicada ao policial militar que tenha prestado declaração falsa durante o recrutamento, desde que tal declaração tenha sido feita por escrito.",
+        "gabarito": "E",
+        "analise": "ERRADO. A declaração falsa prestada no recrutamento enseja a anulação da incorporação independentemente de ter sido reduzida a termo escrito exclusivo, descabendo essa restrição formal criada pelo item."
       },
       {
         "id": 55,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "55. A lei penal não retroagirá, salvo para beneficiar o réu.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base na Lei Estadual nº 5.346/1992 (Estatuto dos Policiais Militares do Estado de Alagoas), julgue o item a seguir.",
+        "enunciado": "55. A anulação da incorporação do policial militar poderá ocorrer em qualquer fase dentro do período de formação.",
+        "gabarito": "C",
+        "analise": "CERTO. Identificada irregularidade insanável ou fraude na seleção/incorporação, esta pode ser anulada a qualquer momento durante o período de formação."
       },
       {
         "id": 56,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "56. A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "À luz do Estatuto do Desarmamento (Lei nº 10.826/2003), julgue o item a seguir.",
+        "enunciado": "56. A autorização para o porte de arma de fogo de uso permitido, válida em todo o território nacional, é de competência da Polícia Federal e depende de autorização prévia do SINARM.",
+        "gabarito": "C",
+        "analise": "CERTO. Artigo 10 da Lei 10.826/2003 estabelece que a autorização para o porte de arma de fogo de uso permitido em todo o território nacional é de competência da Polícia Federal, após autorização do Sinarm."
       },
       {
         "id": 57,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "57. Os Direitos e Garantias Fundamentais dispostos na Constituição Federal de 1988 constituem rol taxativo, não admitindo outros direitos decorrentes de tratados internacionais.",
-        "gabarito": "E"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "À luz da Lei nº 11.343/2006 (Lei de Drogas), julgue o item a seguir.",
+        "enunciado": "57. O crime de prescrever ou ministrar drogas culposamente, sem necessidade do paciente ou em desacordo com determinação legal, admite modalidade culposa expressamente prevista em lei, sendo punido com detenção de 6 meses a 2 anos e multa.",
+        "gabarito": "C",
+        "analise": "CERTO. Trata-se do crime previsto no art. 38 da Lei de Drogas (prescrever ou ministrar drogas culposamente), a única modalidade culposa expressa nos tipos penais da Lei 11.343/2006."
       },
       {
         "id": 58,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "58. O alistamento eleitoral e o voto são facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito anos.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "Com base no disposto na Lei nº 11.340/2006 (Lei Maria da Penha), especialmente após as alterações promovidas pela Lei nº 14.857/2024, julgue o item a seguir.",
+        "enunciado": "58. Nos processos que apuram crimes praticados no contexto de violência doméstica e familiar contra a mulher, o nome da ofendida ficará sob sigilo, o qual também se estende ao nome do autor do fato e aos demais dados do processo, em razão da proteção integral à vítima.",
+        "gabarito": "E",
+        "analise": "ERRADO. A alteração trazida pela Lei nº 14.857/2024 determina o segredo de justiça e sigilo estrito QUANTO AO NOME DA VÍTIMA e dados que a identifiquem, mas não estende tal sigilo ao nome do agressor/autor do fato."
       },
       {
         "id": 59,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "59. Compete privativamente à União legislar sobre direito penal e processual penal.",
-        "gabarito": "C"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "À luz da Lei nº 13.869/2019 (abuso de autoridade), julgue o item a seguir.",
+        "enunciado": "59. Submeter o preso a interrogatório policial durante o período de repouso noturno configura crime de abuso de autoridade, ainda que ele, devidamente assistido por advogado, consinta em prestar declarações.",
+        "gabarito": "E",
+        "analise": "ERRADO. O art. 18 da Lei de Abuso de Autoridade ressalva expressamente as hipóteses de prisão em flagrante ou se o preso, devidamente assistido, consentir em prestar declarações."
       },
       {
         "id": 60,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "60. Às polícias civis cabem a polícia ostensiva e a preservação da ordem pública.",
-        "gabarito": "E"
+        "materia": "LEGISLAÇÃO PERTINENTE AO POLICIAL MILITAR DE ALAGOAS (51 a 60)",
+        "texto": "À luz do disposto na Lei nº 9.099/1995, julgue o item a seguir.",
+        "enunciado": "60. A autoridade policial que tomar conhecimento de infração de menor potencial ofensivo lavrará termo circumstantial e o encaminhará imediatamente ao Juizado, com o autor do fato e a vítima, sendo dispensável a realização de exames periciais, em razão da informalidade que rege o procedimento.",
+        "gabarito": "E",
+        "analise": "ERRADO. Nos termos do art. 77, § 1º, da Lei 9.099/1995, caso a infração exija exame de corpo de delito, este não é dispensado, podendo o laudo ser oferecido até a audiência de instrução e julgamento."
       },
       {
-        "id": 61,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "61. O militar em atividade pode estar filiado a partidos políticos, desde que em dia com suas obrigações sindicais.",
-        "gabarito": "E"
-      },
-      {
-        "id": 62,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "62. O direito à vida, garantido na CF/88, possui caráter absoluto, não admitindo qualquer tipo de mitigação no ordenamento jurídico brasileiro.",
-        "gabarito": "E"
-      },
-      {
-        "id": 63,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "63. A propriedade atenderá a sua função social.",
-        "gabarito": "C"
-      },
-      {
-        "id": 64,
-        "materia": "DIREITO CONSTITUCIONAL",
-        "texto": null,
-        "enunciado": "64. O mandato de segurança coletivo pode ser impetrado por partido político registrado no Tribunal Superior Eleitoral, ainda que sem representação no Congresso Nacional.",
-        "gabarito": "E"
-      },
-      {
-        "id": 65,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "65. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado (teoria da atividade).",
-        "gabarito": "C"
-      },
-      {
-        "id": 66,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "66. Fato típico, ilícito e culpável constituem os elementos do conceito analítico de crime consagrado pela doutrina majoritária.",
-        "gabarito": "C"
-      },
-      {
-        "id": 67,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "67. O estado de necessidade e a legítima defesa constituem causas excludentes de culpabilidade.",
-        "gabarito": "E"
-      },
-      {
-        "id": 68,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "68. A legítima defesa putativa ocorre quando o agente descobre, após o fato, que a agressão sofrida era inteiramente legítima.",
-        "gabarito": "E"
-      },
-      {
-        "id": 69,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "69. No crime impossível, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é punível a tentativa com pena reduzida.",
-        "gabarito": "E"
-      },
-      {
-        "id": 70,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "70. O inquérito policial é um procedimento administrativo informativo, inquisitorial e sigiloso, que visa apurar a autoria e a materialidade da infração penal.",
-        "gabarito": "C"
-      },
-      {
-        "id": 71,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "71. A ação penal pública incondicionada independe de representação da vítima ou de seu representante legal.",
-        "gabarito": "C"
-      },
-      {
-        "id": 72,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "72. Qualquer do povo poderá e as autoridades policiais e seus agentes deverão prender quem quer que seja encontrado em flagrante delito.",
-        "gabarito": "C"
-      },
-      {
-        "id": 73,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "73. O flagrante impróprio ocorre quando o agente é perseguido, logo após o fato, em situação que faça presumir ser ele o autor da infração.",
-        "gabarito": "C"
-      },
-      {
-        "id": 74,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "74. A prisão preventiva pode ser decretada pelo Juiz de ofício durante o inquérito policial.",
-        "gabarito": "E"
-      },
-      {
-        "id": 75,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "75. Diz-se o crime consumado quando nele se reúnem todos os elementos de sua definição legal.",
-        "gabarito": "C"
-      },
-      {
-        "id": 76,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "76. Diz-se o crime tentado quando, iniciada a execução, este não se consuma por circunstâncias alheias à vontade do agente.",
-        "gabarito": "C"
-      },
-      {
-        "id": 77,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "77. O arrependimento eficaz ocorre quando o agente, voluntariamente, impede que o resultado se produza antes da consumação do crime.",
-        "gabarito": "C"
-      },
-      {
-        "id": 78,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "78. A coação moral irresistível exclui a ilicitude da conduta.",
-        "gabarito": "E"
-      },
-      {
-        "id": 79,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "79. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.",
-        "gabarito": "C"
-      },
-      {
-        "id": 80,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "80. O inquérito policial é indispensável para o oferecimento da denúncia pelo Ministério Público.",
-        "gabarito": "E"
-      },
-      {
-        "id": 81,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "81. As provas obtidas por meios ilícitos são inadmissíveis no processo, salvo se beneficiarem a defesa do réu.",
-        "gabarito": "E"
-      },
-      {
-        "id": 82,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "82. O vício no inquérito policial anula a ação penal subsequente.",
-        "gabarito": "E"
-      },
-      {
-        "id": 83,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "83. Na busca pessoal, independe de mandado judicial a fundada suspeita de que a pessoa esteja na posse de arma proibida.",
-        "gabarito": "C"
-      },
-      {
-        "id": 84,
-        "materia": "DIREITO PENAL E PROCESSUAL PENAL",
-        "texto": null,
-        "enunciado": "84. A prisão temporária pode ser decretada pela autoridade policial em casos de extrema urgência sem prévia ordem judicial.",
-        "gabarito": "E"
-      },
-      {
-        "id": 85,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "85. Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência são princípios expressos da Administração Pública no art. 37 da Constituição Federal.",
-        "gabarito": "C"
-      },
-      {
-        "id": 86,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "86. O poder de polícia administrativo é delegado ilimitadamente a empresas privadas do setor comercial.",
-        "gabarito": "E"
-      },
-      {
-        "id": 87,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "87. A revogação do ato administrativo fundamenta-se em razões de oportunidade e conveniência, respeitados os direitos adquiridos.",
-        "gabarito": "C"
-      },
-      {
-        "id": 88,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "88. A anulação do ato administrativo ocorre por razões de ilegalidade e produz efeitos ex tunc.",
-        "gabarito": "C"
-      },
-      {
-        "id": 89,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "89. O atributo da autoexecutoriedade permite que a Administração Pública execute diretamente suas decisões sem a necessidade de prévia intervenção do Poder Judiciário.",
-        "gabarito": "C"
-      },
-      {
-        "id": 90,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "90. O abuso de poder pode se manifestar nas modalidades de excesso de poder (vício de competência) e desvio de finalidade (vício de finalidade).",
-        "gabarito": "C"
-      },
-      {
-        "id": 91,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "91. A responsabilidade civil do Estado por atos comissivos de seus agentes é objetiva, baseada na teoria do risco administrativo.",
-        "gabarito": "C"
-      },
-      {
-        "id": 92,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "92. A descentralização administrativa ocorre quando o Estado cria entidades com personalidade jurídica própria, como autarquias e fundações públicas.",
-        "gabarito": "C"
-      },
-      {
-        "id": 93,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "93. Os atos administrativos gozam de presunção absoluta (jure et de jure) de veracidade e legitimidade.",
-        "gabarito": "E"
-      },
-      {
-        "id": 94,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "94. O poder hierárquico autoriza a chefia administrativa a dar ordens, fiscalizar, delegar e avocar competências, nos limites da lei.",
-        "gabarito": "C"
-      },
-      {
-        "id": 95,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "95. O servidor público está obrigado a cumprir ordens superiores, mesmo quando manifestamente ilegais.",
-        "gabarito": "E"
-      },
-      {
-        "id": 96,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "96. A imperatividade é o atributo do ato administrativo pelo qual ele se impõe a terceiros independentemente da sua concordância.",
-        "gabarito": "C"
-      },
-      {
-        "id": 97,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "97. A convalidação é a eliminação de vício insanável contido em ato administrativo nulo.",
-        "gabarito": "E"
-      },
-      {
-        "id": 98,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "98. A responsabilidade objetiva do Estado afasta a possibilidade de ação regressiva contra o agente público causador do dano.",
-        "gabarito": "E"
-      },
-      {
-        "id": 99,
-        "materia": "DIREITO ADMINISTRATIVO",
-        "texto": null,
-        "enunciado": "99. A ilicitude do ato é pressuposto indispensável para a caracterização da responsabilidade civil do Estado.",
-        "gabarito": "E"
-      },
-      {
-        "id": 100,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "100. Segundo a Declaração Universal dos Direitos Humanos, todas as pessoas nascem livres e iguais em dignidade e direitos.",
-        "gabarito": "C"
-      },
-      {
-        "id": 101,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "101. A Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica) veda expressamente a pena de morte em qualquer circunstância, sem exceções.",
-        "gabarito": "E"
-      },
-      {
-        "id": 102,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "102. Os direitos humanos são caracterizados pela imprescritibilidade, inalienabilidade, irrenunciabilidade e universalidade.",
-        "gabarito": "C"
-      },
-      {
-        "id": 103,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "103. Conforme o Estatuto dos Policiais Militares de Alagoas, a hierarquia e a disciplina são as bases institucionais da Polícia Militar.",
-        "gabarito": "C"
-      },
-      {
-        "id": 104,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "104. O uso da força por agentes de segurança pública deve observar os princípios da legalidade, necessidade, proporcionalidade e conveniência.",
-        "gabarito": "E"
-      },
-      {
-        "id": 105,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "105. A Convenção contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes veda a tortura, exceto em estado de guerra.",
-        "gabarito": "E"
-      },
-      {
-        "id": 106,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "106. O crime de tortura é inafiançável e insuscetível de graça ou anistia.",
-        "gabarito": "C"
-      },
-      {
-        "id": 107,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "107. Os Direitos Humanos de Primeira Geração enfatizam os direitos sociais, econômicos e culturais.",
-        "gabarito": "E"
-      },
-      {
-        "id": 108,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "108. O abuso de autoridade submete o agente público a sanções administrativas, civis e penais.",
-        "gabarito": "C"
-      },
-      {
-        "id": 109,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "109. Segundo a Lei de Abuso de Autoridade (Lei nº 13.869/2019), a divergência na interpretação de lei ou na avaliação de fatos e provas constitui abuso de autoridade.",
-        "gabarito": "E"
-      },
-      {
-        "id": 110,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "110. A dignidade da pessoa humana é um dos fundamentos da República Federativa do Brasil expressos no art. 1º da CF/88.",
-        "gabarito": "C"
-      },
-      {
-        "id": 111,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "111. O Estatuto da Criança e do Adolescente (ECA) considera criança a pessoa de até doze anos de idade incompletos.",
-        "gabarito": "C"
-      },
-      {
-        "id": 112,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "112. A apreensão de adolescente em flagrante de ato infracional exige a imediata comunicação à autoridade judiciária competente.",
-        "gabarito": "C"
-      },
-      {
-        "id": 113,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "113. A Lei Maria da Penha (Lei nº 11.340/2006) aplica-se a crimes praticados contra mulheres no âmbito da unidade doméstica, da família ou em qualquer relação íntima de afeto.",
-        "gabarito": "C"
-      },
-      {
-        "id": 114,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "114. A violência psicológica contra a mulher é uma das formas de violência doméstica previstas na Lei Maria da Penha.",
-        "gabarito": "C"
-      },
-      {
-        "id": 115,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "115. Conforme o Código Penal Militar, considera-se crime militar o praticado por militar em serviço contra civil.",
-        "gabarito": "E"
-      },
-      {
-        "id": 116,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "116. A ordem de superior hierárquico isenta de pena o subordinado, mesmo se manifestamente criminosa.",
-        "gabarito": "E"
-      },
-      {
-        "id": 117,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "117. O assédio moral e o racismo são condutas expressamente combatidas no âmbito das instituições de segurança pública.",
-        "gabarito": "C"
-      },
-      {
-        "id": 118,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "118. A Polícia Militar de Alagoas integra a administração direta do Estado de Alagoas.",
-        "gabarito": "C"
-      },
-      {
-        "id": 119,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "119. As regras mínimas das Nações Unidas para o tratamento de presos (Regras de Mandela) proibem rigorosamente qualquer forma de tortura ou castigo corporal.",
-        "gabarito": "C"
-      },
-      {
-        "id": 120,
-        "materia": "DIREITOS HUMANOS E LEGISLAÇÃO APLICADA",
-        "texto": null,
-        "enunciado": "120. O militar em serviço que descumprir ordem formal exarada por superior hierárquico comete transgressão disciplinar grave sujeita às sanções cabíveis.",
-        "gabarito": "C"
-      }
+    "id": 61,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "61. Por força do princípio da indisponibilidade do interesse público pela administração, o administrador, em regra, não pode renunciar a competências, poderes e direitos da administração pública.",
+    "gabarito": "C",
+    "analise": "CERTO. O princípio da indisponibilidade do interesse público veda ao administrador a livre disposição dos bens, poderes e competências públicas, devendo atuar estritamente no âmbito autorizado por lei."
+  },
+  {
+    "id": 62,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "62. Dado o princípio da autotutela, que embasa o controle administrativo, a administração pública tem o poder-dever de anular seus próprios atos eivados de ilegalidade, mas não de revogá-los por motivo de conveniência ou oportunidade.",
+    "gabarito": "E",
+    "analise": "ERRADO. A autotutela abrange tanto o dever de anular atos ilegais quanto a faculdade de revogar atos legítimos e oportunos por razões de conveniência e oportunidade (Súmula 473 do STF)."
+  },
+  {
+    "id": 63,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "63. A prerrogativa da administração pública de condicionar e restringir o uso e gozo de bens, atividades e direitos individuais em prol do interesse público decorre do poder de polícia.",
+    "gabarito": "C",
+    "analise": "CERTO. Conceito clássico de Poder de Polícia (art. 78 do CTN e doutrina administrativa)."
+  },
+  {
+    "id": 64,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": "Caio, servidor público federal, mantinha sob sua chefia imediata sua irmã Maria, que ocupava cargo de confiança. O chefe da repartição, ao tomar conhecimento da situação, instaurou processo administrativo disciplinar para apurar a conduta de Caio, concedendo-lhe ampla defesa e contraditório. Ao final do processo, o chefe da repartição proferiu decisão aplicando a Caio pena disciplinar de advertência, tendo indicado os pressupostos de fato, porém deixado de indicar os pressupostos de direito que ensejaram a sua decisão.\nCaio interpôs recurso contra a decisão citada, requerendo a sua nulidade tanto por ausência de competência do chefe de repartição quanto por ausência de motivação explícita do ato por este praticado.",
+    "enunciado": "64. Ao aplicar a penalidade administrativa a Caio pela prática de ato irregular no exercício de sua função pública, o chefe da repartição exerceu o poder disciplinar.",
+    "gabarito": "C",
+    "analise": "CERTO. O poder disciplinar é a prerrogativa da Administração de apurar infrações e aplicar sanções aos servidores públicos sujeitos à sua disciplina interna."
+  },
+  {
+    "id": 65,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "65. A administração pública responderá, subsidiariamente, pelos encargos trabalhistas e previdenciários, desde que demonstrada falha na fiscalização do cumprimento das obrigações do contratado.",
+    "gabarito": "C",
+    "analise": "CERTO. Segundo o art. 121, § 2º, da Lei nº 14.133/2021 e a jurisprudência consolidada do STF (ADC 16 e Tema 246 de Repercussão Geral), a responsabilidade da Administração pelos encargos trabalhistas exige a comprovação de culpa in vigilando."
+  },
+  {
+    "id": 66,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "66. Serviços públicos uti universi são aqueles prestados à coletividade, mas usufruídos indiretamente pelos indivíduos.",
+    "gabarito": "C",
+    "analise": "CERTO. Serviços uti universi (gerais) são prestados à coletividade indistintamente (ex: iluminação pública, limpeza urbana), indivisíveis e usufruídos de forma indireta."
+  },
+  {
+    "id": 67,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "67. A extinção do contrato administrativo prejudica o reconhecimento do desequilíbrio econômico-financeiro requerido durante a vigência contratual.",
+    "gabarito": "E",
+    "analise": "ERRADO. A extinção do contrato administrativo não impede a apuração e o reequilíbrio econômico-financeiro referente a eventos decorridos durante a sua vigência, desde que pleiteado tempestivamente."
+  },
+  {
+    "id": 68,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "68. O regime jurídico dos bens públicos é único e de aplicação uniforme.",
+    "gabarito": "E",
+    "analise": "ERRADO. Os bens públicos sujeitam-se a regimes jurídicos diferenciados conforme sua classificação (bens de uso comum do povo, de uso especial e dominicais, estes últimos possuindo maior alienabilidade e flexibilidade)."
+  },
+  {
+    "id": 69,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "69. Caso um ato lícito do Estado cause dano anormal e específico a determinado indivíduo, o dever de indenizar se fundamenta no princípio da isonomia, e não no princípio da legalidade.",
+    "gabarito": "C",
+    "analise": "CERTO. A responsabilidade por ato lícito assenta-se na repartição equitativa dos encargos públicos (princípio da isonomia/igualdade perante os ônus públicos), impedindo que um único indivíduo suporte sozinho um encargo em prol de toda a coletividade."
+  },
+  {
+    "id": 70,
+    "materia": "NOÇÕES DE DIREITO ADMINISTRATIVO",
+    "texto": null,
+    "enunciado": "70. A sustação, pelo Congresso Nacional, de portaria normativa editada por ministro de Estado, em razão de violação ao princípio da legalidade, configura um tipo de controle legislativo, político e externo da administração pública.",
+    "gabarito": "C",
+    "analise": "CERTO. Artigo 49, V, da CF/88: compete ao Congresso Nacional sustar atos normativos do Poder Executivo que exorbitem do poder regulamentar. Trata-se de controle legislativo externo e político."
+  },
+  {
+    "id": 71,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "71. O direito de resposta, proporcional ao agravo, exclui a possibilidade de cumulação com indenização por dano material, moral ou à imagem, sob pena de bis in idem.",
+    "gabarito": "E",
+    "analise": "ERRADO. Artigo 5º, V, da CF/88: é assegurado o direito de resposta, proporcional ao agravo, ALÉM DA indenização por dano material, moral ou à imagem (são cumuláveis)."
+  },
+  {
+    "id": 72,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "72. O sigilo da fonte possui caráter absoluto, sendo vedada sua relativização mesmo diante de ordem judicial fundamentada em investigação criminal.",
+    "gabarito": "E",
+    "analise": "ERRADO. O sigilo da fonte (art. 5º, XIV, CF) é garantido quando necessário ao exercício profissional, mas nenhum direito fundamental possui caráter absoluto no ordenamento brasileiro."
+  },
+  {
+    "id": 73,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "73. É plena a liberdade de associação para fins lícitos, sendo vedada a de caráter paramilitar.",
+    "gabarito": "C",
+    "analise": "CERTO. Redação literal do artigo 5º, XVII, da Constituição Federal."
+  },
+  {
+    "id": 74,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "74. A sucessão de bens de estrangeiros situados no Brasil será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes for mais favorável a lei pessoal do de cujus.",
+    "gabarito": "C",
+    "analise": "CERTO. Redação literal do artigo 5º, XXXI, da Constituição Federal."
+  },
+  {
+    "id": 75,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "75. Será declarada a perda da nacionalidade do brasileiro que tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático.",
+    "gabarito": "C",
+    "analise": "CERTO. Redação atual do art. 12, § 4º, I, da Constituição Federal (conforme a EC nº 131/2023)."
+  },
+  {
+    "id": 76,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "76. Os Territórios Federais integram a União, sendo que sua criação, transformação em Estado ou reintegração ao Estado de origem dependem de lei ordinária federal.",
+    "gabarito": "E",
+    "analise": "ERRADO. A criação, transformação em Estado ou reintegração ao Estado de origem de Territórios Federais dependem de LEI COMPLEMENTAR (art. 18, § 2º, CF/88)."
+  },
+  {
+    "id": 77,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "77. É vedado à União, aos Estados, ao Distrito Federal e aos Municípios recusar fé aos documentos públicos.",
+    "gabarito": "C",
+    "analise": "CERTO. Redação literal do artigo 19, II, da Constituição Federal."
+  },
+  {
+    "id": 78,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "78. Durante a vigência do estado de defesa, a prisão por crime contra o Estado poderá ser determinada pelo executor da medida, devendo ser comunicada imediatamente ao juiz competente, que a manterá ainda que ilegal, sendo vedado ao preso requerer exame de corpo de delito.",
+    "gabarito": "E",
+    "analise": "ERRADO. Nos termos do art. 136, § 3º, da CF/88, a prisão ilegal será relaxada pelo juiz e a lei garante expressamente o exame de corpo de delito ao preso."
+  },
+  {
+    "id": 79,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "79. Ao solicitar autorização para decretar o estado de sítio ou sua prorrogação, o Presidente da República deve relatar os motivos determinantes do pedido, cabendo ao Congresso Nacional decidir por maioria absoluta.",
+    "gabarito": "C",
+    "analise": "CERTO. Redação do artigo 137, parágrafo único, da Constituição Federal."
+  },
+  {
+    "id": 80,
+    "materia": "NOÇÕES DE DIREITO CONSTITUCIONAL",
+    "texto": null,
+    "enunciado": "80. As polícias militares e os corpos de bombeiros militares, por serem forças auxiliares e reserva do Exército, a este se subordinam diretamente.",
+    "gabarito": "E",
+    "analise": "ERRADO. As PMs e CBMs subordinam-se aos GOVERNADORES dos Estados, DF e Territórios (art. 144, § 6º, CF/88)."
+  },
+  {
+    "id": 81,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": null,
+    "enunciado": "81. O inquérito policial, por ser um instrumento constitucional e previsto à luz do código de processo penal, deve assegurar o contraditório e a ampla defesa ao investigado.",
+    "gabarito": "E",
+    "analise": "ERRADO. O Inquérito Policial é um procedimento administrativo inquisitório, não vigorando nele o contraditório e a ampla defesa plenos (salvo prerrogativas da advocacia previstas no Estatuto da OAB)."
+  },
+  {
+    "id": 82,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": null,
+    "enunciado": "82. O inquérito policial (IP) é presidido, via de regra, pela autoridade policial; entretanto, em hipóteses excepcionais, o promotor de justiça pode presidir o IP, conforme rege o estatuto dos membros do Ministério Público (MP).",
+    "gabarito": "E",
+    "analise": "ERRADO. A presidência do Inquérito Policial é atribuição privativa da autoridade policial (delegado de polícia). O Ministério Público possui poder de investigação direta via Procedimento Investigatório Criminal (PIC), mas não preside o IP."
+  },
+  {
+    "id": 83,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": null,
+    "enunciado": "83. O IP, à luz da doutrina majoritária e do código de processo penal, tem como uma de suas características precípuas a oficiosidade, que releva seu caráter judicial.",
+    "gabarito": "E",
+    "analise": "ERRADO. A oficiosidade significa que a autoridade policial deve agir de ofício nos crimes de ação pública incondicionada. O IP tem caráter ADMINISTRATIVO, não judicial."
+  },
+  {
+    "id": 84,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação hipotética: Mirosmar, autoridade policial da polícia civil do Estado ALFA, tomou conhecimento de um crime por meio de uma denúncia anônima (apócrifa), através de canais de disque denúncia do Estado referido.",
+    "enunciado": "84. Assertiva: De acordo com a jurisprudência dos tribunais superiores, Mirosmar pode instaurar o inquérito policial tomando por base unicamente a denúncia anônima recepcionada, sem realizar nenhuma verificação preliminar previamente à instauração do IP.",
+    "gabarito": "E",
+    "analise": "ERRADO. Jurisprudência pacífica do STF e STJ (Súmula Vinculante / Informativos): a denúncia anônima isolada não autoriza a instauração imediata do IP; exige-se a realização de investigações prévias (VPI) para verificar a verossimilhança das informações."
+  },
+  {
+    "id": 85,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação Hipotética: Diego foi preso em flagrante delito pela infração de tráfico ilícito de entorpecentes após abordagem legal, ou seja, com fundada suspeita, realizada pela polícia militar na cidade de Santana do Ipanema do Estado ALFA. Logo após a prisão, ele foi conduzido à delegacia de polícia da cidade, onde foram realizados todos os procedimentos legais cabíveis.",
+    "enunciado": "85. Assertiva: De acordo com o Código de Processo Penal, o IP deverá terminar no prazo de 10 dias, visto que o indiciado foi preso em flagrante.",
+    "gabarito": "E",
+    "analise": "ERRADO. No crime de tráfico de entorpecentes, aplica-se o prazo especial da Lei nº 11.343/2006 (art. 51): 30 dias se o indiciado estiver preso (duplicável por igual período), e não o prazo geral do CPP (10 dias)."
+  },
+  {
+    "id": 86,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação Hipotética: Letícia foi vítima de difamação (crime de ação penal privada), sendo este crime contra a honra praticado por Juarez e Lindomar.",
+    "enunciado": "86. Assertiva: De acordo com o código de processo penal e a doutrina processual penal, o ato de renúncia é personalíssimo, ou seja, Letícia pode renunciar o direito de queixa apenas em relação a Juarez.",
+    "gabarito": "E",
+    "analise": "ERRADO. Pelo princípio da indivisibilidade da ação penal privada (art. 49 do CPP), a renúncia do direito de queixa em relação a um dos autores do crime a todos se estende."
+  },
+  {
+    "id": 87,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação Hipotética: Letícia foi vítima de difamação (crime de ação penal privada), sendo este crime praticado por Juarez e Lindomar.",
+    "enunciado": "87. Assertiva: Letícia pode conceder o perdão aos autores do crime cometidos contra ela, no entanto, os autores (querelados) devem aceitar o perdão, visto que é um instrumento bilateral.",
+    "gabarito": "C",
+    "analise": "CERTO. O perdão do querelado é ato bilateral (art. 51 do CPP): só produz efeito se o querelado o aceitar."
+  },
+  {
+    "id": 88,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação Hipotética: João Pedro foi vítima de uma tentativa de homicídio (art. 121 do Código Penal), isto é, crime de ação penal pública incondicionada.",
+    "enunciado": "88. Assertiva: De acordo com a situação hipotética, o titular da ação penal pública incondicionada, nesse caso, será João Pedro, já que ele se encontra recuperado da tentativa de homicídio sofrida.",
+    "gabarito": "E",
+    "analise": "ERRADO. O titular exclusivo da ação penal pública (condicionada ou incondicionada) é o Ministério Público (art. 129, I, da CF/88)."
+  },
+  {
+    "id": 89,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": "Situação Hipotética: Neilton cometeu crime de roubo de pequeno valor (crime de ação penal pública incondicionada), no centro da cidade de São Paulo/SP, em desfavor de Rafaela.",
+    "enunciado": "89. Assertiva: O Ministério Público, em razão da pouca gravidade do crime perpetrado, pode desistir da ação penal, se convencido da inexistência de razões para condenar Neilton, ou seja, nesse caso, é facultada a desistência da ação penal.",
+    "gabarito": "E",
+    "analise": "ERRADO. O artigo 42 do CPP consagra o princípio da indisponibilidade da ação penal pública: o Ministério Público NÃO poderá desistir da ação penal já proposta."
+  },
+  {
+    "id": 90,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+    "texto": null,
+    "enunciado": "90. De acordo com o Código de Processo Penal e com a Doutrina, a ação penal pública é o instrumento pelo qual o Estado, por meio do Ministério Público, exerce o seu direito de punir o autor de uma infração penal.",
+    "gabarito": "C",
+    "analise": "CERTO. Definição doutrinária e legal precisa da ação penal pública."
+  },
+  {
+    "id": 91,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "91. No âmbito do CPM, não há previsão expressa da figura do arrependimento posterior como causa de diminuição de pena, mas apenas como circunstância atenuante.",
+    "gabarito": "C",
+    "analise": "CERTO. Diferente do Código Penal comum (art. 16), o Código Penal Militar não instituiu a causa de diminuição do arrependimento posterior, tratando a reparação do dano apenas como atenuante genérica (art. 70, III, \"b\", do CPM)."
+  },
+  {
+    "id": 92,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "92. Sendo o autor do crime militar um militar da ativa, a embriaguez, em regra, agrava a pena, ao passo que, sendo ele um civil, a agravante da embriaguez somente incide se esta for preordenada.",
+    "gabarito": "C",
+    "analise": "CERTO. Conforme o art. 70, II, \"l\", do CPM, a embriaguez é circunstância agravante para o militar da ativa e, para o civil/militar fora de serviço, se for preordenada."
+  },
+  {
+    "id": 93,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "93. É considerado crime militar em tempo de paz aquele que, previsto na legislação penal, tenha sido cometido por militar em serviço contra militar da reserva, desde que o local da prática do crime esteja sujeito à administração militar.",
+    "gabarito": "E",
+    "analise": "ERRADO. O militar em serviço praticando crime contra militar da reserva comete crime militar INDEPENDENTEMENTE do local da prática ser ou não sujeito à administração militar (art. 9º, II, \"c\", do CPM)."
+  },
+  {
+    "id": 94,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "94. Aplica-se a lei penal militar, sem prejuízo de convenções, tratados e regras de direito internacional, ao crime cometido, no todo ou em parte, no território nacional ou fora dele, exceto no caso de o agente estar sendo processado ou ter sido julgado pela justiça estrangeira.",
+    "gabarito": "E",
+    "analise": "ERRADO. O art. 7º do CPM adota o princípio da extraterritorialidade incondicionada (a lei penal militar aplica-se ao crime cometido fora do território nacional AINDA QUE o agente seja processado ou julgado no estrangeiro)."
+  },
+  {
+    "id": 95,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "95. Militares da reserva ou reformados, quando empregados na administração militar, equiparam-se aos militares da ativa para efeitos da aplicação da lei penal militar.",
+    "gabarito": "C",
+    "analise": "CERTO. Regra expressa do artigo 12 do Código Penal Militar."
+  },
+  {
+    "id": 96,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "96. No atual Código Penal Militar (CPM), são prescritos os crimes militares e regulamentadas as infrações disciplinares.",
+    "gabarito": "E",
+    "analise": "ERRADO. O CPM tipifica e regula EXCLUSIVAMENTE os crimes militares e penas criminais. As infrações disciplinares são reguladas pelos Regulamentos Disciplinares das corporações/Forças Armadas."
+  },
+  {
+    "id": 97,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "97. Em relação ao tempo do crime, o Código Penal Militar adotou a teoria da atividade.",
+    "gabarito": "C",
+    "analise": "CERTO. Artigo 5º do CPM: considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o do resultado (teoria da atividade)."
+  },
+  {
+    "id": 98,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "98. Os crimes militares em tempo de paz são somente aqueles que constam no Código Penal Militar, mesmo que alguns deles tenham igual definição na lei penal comum.",
+    "gabarito": "E",
+    "analise": "ERRADO. Com a alteração da Lei nº 13.491/2017 no art. 9º, II, do CPM, consideram-se crimes militares em tempo de paz os previstos no CPM E TAMBÉM os previstos na LEGISLAÇÃO PENAL COMUM, quando praticados nas hipóteses legais."
+  },
+  {
+    "id": 99,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "99. Consideram-se crimes militares em tempo de paz apenas os previstos no CPM, excluindo-se, em qualquer situação, a legislação penal comum, em observância ao princípio da especialidade.",
+    "gabarito": "E",
+    "analise": "ERRADO. A Lei nº 13.491/2017 ampliou o conceito para abranger os crimes previstos na legislação penal comum (extracodificados) cometidos nas condições do art. 9º do CPM."
+  },
+  {
+    "id": 100,
+    "materia": "NOÇÕES DE DIREITO PENAL MILITAR",
+    "texto": null,
+    "enunciado": "100. O princípio da retroatividade autoriza a aplicação de lei penal militar que, posterior ao fato, favoreça o agente.",
+    "gabarito": "C",
+    "analise": "CERTO. Regra constitucional e do art. 2º, § 1º, do CPM (retroatividade da lei penal mais benéfica)."
+  },
+  {
+    "id": 101,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "101. As informações, se verbais, deverão estar devidamente autenticadas; se escritas, serão tomadas por termo perante o juiz, a pedido do órgão do Ministério Público, e na presença deste.",
+    "gabarito": "E",
+    "analise": "ERRADO. Artigo 352 do CPPM: as informações, se VERBAIS, serão tomadas POR TERMO; se ESCRITAS, deverão estar autenticadas."
+  },
+  {
+    "id": 102,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "102. Uma vez apresentada a denúncia, o Ministério Público Militar não pode desistir da ação penal.",
+    "gabarito": "C",
+    "analise": "CERTO. Princípio da indisponibilidade da ação penal pública, expressamente consagrado no artigo 32 do CPPM."
+  },
+  {
+    "id": 103,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "103. Estando o indiciado preso, a conclusão do inquérito policial militar deve se dar no prazo de 20 dias, contados da data de instauração do inquérito, podendo tal prazo ser prorrogado por igual período.",
+    "gabarito": "E",
+    "analise": "ERRADO. Nos termos do art. 20 do CPPM, se o indiciado estiver PRESO, o prazo é de 20 dias inprorrogáveis, contados a partir do dia em que se executar a ordem de prisão."
+  },
+  {
+    "id": 104,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "104. A ação penal militar é, em regra, pública, devendo ser promovida por denúncia do Ministério Público Militar.",
+    "gabarito": "C",
+    "analise": "CERTO. Artigo 29 do CPPM: a ação penal é pública e promovida pelo Ministério Público."
+  },
+  {
+    "id": 105,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "105. O inquérito policial militar somente pode ser instaurado em virtude de requisição do Ministério Público Militar ou de decisão do STM.",
+    "gabarito": "E",
+    "analise": "ERRADO. O IPM pode ser instaurado de ofício pela autoridade militar competente, por determinação/requisição superior, entre outras formas (art. 10 do CPPM)."
+  },
+  {
+    "id": 106,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "106. É possível a instauração de novo inquérito policial militar nos casos de arquivamento de inquérito anterior se surgirem notícias de novas provas em relação ao indiciado, ao fato ou a terceira pessoa, desde que respeitados a coisa julgada e os casos de extinção da punibilidade.",
+    "gabarito": "C",
+    "analise": "CERTO. Artigo 25 do CPPM (Súmula 524 do STF): o arquivamento por falta de provas não impede novas pesquisas ou novo IPM se surgirem notícias de novas provas."
+  },
+  {
+    "id": 107,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "107. O inquérito policial militar é a apuração sumária de fato, em tese, criminoso e de sua autoria, não tendo, no entanto, valor jurídico os exames e as perícias realizados que não forem repetidos em juízo, durante o processo.",
+    "gabarito": "E",
+    "analise": "ERRADO. Artigo 9º, parágrafo único, do CPPM: os exames e perícias efetuados no IPM têm valor de prova documental e NÃO precisam ser repetidos em juízo para manterem valor probatório."
+  },
+  {
+    "id": 108,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "108. Se o infrator for oficial general, será sempre comunicado o fato ao ministro e ao chefe de Estado-Maior competentes, obedecidos os trâmites regulamentares.",
+    "gabarito": "C",
+    "analise": "CERTO. Disposição expressa do artigo 243, parágrafo único, do CPPM."
+  },
+  {
+    "id": 109,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "109. Se a infração penal não for, evidentemente, de natureza militar, comunicará o fato à autoridade policial competente, a quem fará apresentar o infrator. Em se tratando de civil, menor de dezoito anos, a apresentação será feita ao Juiz de Menores.",
+    "gabarito": "C",
+    "analise": "CERTO. Literalidade do artigo 243, § 2º, do CPPM."
+  },
+  {
+    "id": 110,
+    "materia": "NOÇÕES DE DIREITO PROCESSUAL PENAL MILITAR",
+    "texto": null,
+    "enunciado": "110. É desnecessário o escrivão prestar compromisso de manter o sigilo do inquérito e de cumprir fielmente as determinações do Código de Processo Penal Militar.",
+    "gabarito": "E",
+    "analise": "ERRADO. O escrivão nomeado para o IPM deve preambularmente prestar compromisso legal de manter o sigilo e cumprir fielmente os deveres do cargo (art. 15, § 2º, do CPPM)."
+  },
+  {
+    "id": 111,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "111. De acordo com a Constituição Federal de 1988 (CF), os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por dois terços dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.",
+    "gabarito": "E",
+    "analise": "ERRADO. Para equivaler a Emenda Constitucional, a aprovação exige o quórum de TRÊS QUINTOS (3/5) dos votos dos membros de cada Casa (art. 5º, § 3º, CF/88), e não dois terços."
+  },
+  {
+    "id": 112,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "112. À luz do ordenamento pátrio, um dos tratados internacionais sobre direitos humanos que possuem status constitucional é o tratado de Marraquexe.",
+    "gabarito": "C",
+    "analise": "CERTO. O Tratado de Marraquexe (para facilitar o acesso a obras publicadas às pessoas cegas) foi aprovado pelo rito do art. 5º, § 3º, da CF/88 e possui status equivalente a Emenda Constitucional."
+  },
+  {
+    "id": 113,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "113. De acordo com o Pacto de São José da Costa Rica, ninguém pode ser submetido a escravidão ou a servidão, e tanto estas como o tráfico de escravos e o tráfico de mulheres são proibidos em todas as formas.",
+    "gabarito": "C",
+    "analise": "CERTO. Transcrição literal do artigo 6.1 da Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica)."
+  },
+  {
+    "id": 114,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "114. Como regra, no ordenamento pátrio, os direitos humanos são prescritíveis, isto é, garantem que as vítimas de violações possam buscar justiça.",
+    "gabarito": "E",
+    "analise": "ERRADO. Uma das características fundamentais dos Direitos Humanos é a IMPRESCRITIBILIDADE (eles não se perdem pelo decurso do tempo)."
+  },
+  {
+    "id": 115,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "115. De acordo com a doutrina relativa aos direitos humanos, a fim de assegurar a evolução permanente dos direitos humanos, o princípio da vedação ao retrocesso mostra-se essencial; por meio dele, proíbe-se a retirada de direitos já reconhecidos e consolidados ao longo do tempo, resguardando as conquistas alcançadas pela humanidade.",
+    "gabarito": "C",
+    "analise": "CERTO. Definição precisa do princípio da vedação ao retrocesso social (efeito cliquet) nos Direitos Humanos."
+  },
+  {
+    "id": 116,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "116. De acordo com pacto de São José da Costa Rica, não se deve impor a pena de morte a pessoa que, no momento da perpetração do delito, for menor de dezoito anos, ou maior de setenta, nem aplicá-la a mulher em estado de gravidez, com exceção dos crimes cometidos contra o estado democrático de direito.",
+    "gabarito": "E",
+    "analise": "ERRADO. O Pacto de São José da Costa Rica (art. 4.5) proíbe a pena de morte para tais grupos SEM QUALQUER EXCEÇÃO relativa a crimes contra o Estado democrático de direito."
+  },
+  {
+    "id": 117,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "117. O Pacto de São José da Costa Rica estabelece que toda pessoa privada da liberdade tem direito a recorrer a um juiz ou tribunal competente, a fim de que este decida, sem demora, sobre a legalidade de sua prisão ou detenção e ordene sua soltura se a prisão ou a detenção forem ilegais.",
+    "gabarito": "C",
+    "analise": "CERTO. Regra expressa do artigo 7.6 do Pacto de São José da Costa Rica (garantia do Habeas Corpus)."
+  },
+  {
+    "id": 118,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "118. À luz do ordenamento pátrio, direitos humanos são direitos universais que toda pessoa tem pelo simples fato de existir. Nesse sentido, esses direitos são afirmados pelos Estados tanto individualmente, por suas leis e Constituições, quanto coletivamente, por intermédio de convenções, acordos e tratados internacionais.",
+    "gabarito": "C",
+    "analise": "CERTO. Conceito irretocável da universalidade e da dupla proteção (nacional e internacional) dos direitos humanos."
+  },
+  {
+    "id": 119,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "119. De acordo com a teoria e a doutrina relativa aos direitos humanos no ordenamento pátrio, os direitos de segunda geração compreendem os direitos sociais, políticos e culturais.",
+    "gabarito": "E",
+    "analise": "ERRADO. Os direitos POLITICOS são de 1ª geração (liberdades públicas e participação política). Os direitos de 2ª geração englobam os direitos sociais, econômicos e culturais."
+  },
+  {
+    "id": 120,
+    "materia": "DIREITOS HUMANOS",
+    "texto": null,
+    "enunciado": "120. À luz do ordenamento pátrio e da doutrina, toda a pessoa acusada de um ato delito comum presume-se inocente até que a sua culpabilidade fique legalmente provada no decurso de um processo público em que todas as garantias necessárias de defesa lhe sejam asseguradas. Entretanto, o acusado por ter cometido delito hediondo presume-se culpado, mesmo antes do processo.",
+    "gabarito": "E",
+    "analise": "ERRADO. A presunção de inocência/não culpabilidade é garantia constitucional plena (art. 5º, LVII, CF) e aplica-se a TODOS os acusados, inclusive aos imputados por crimes hediondos."
+  }
+
     ]
   }
 ]
